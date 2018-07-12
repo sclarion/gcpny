@@ -655,11 +655,13 @@ Feature Case Section
     color: grey;
     display: block;
     height: 80px;
+    transition: 0.2s all ease-in-out;
 }
 
 .case-studies-list a:hover{
     text-decoration: none;
     color: rgba(46, 171, 123, 1);
+    transform: scale(1.1,1.1);  
 }
 
 .case-studies-list a i{
