@@ -549,9 +549,15 @@ Infographic Section
 
 .info-icon{
     display: block;
-    width: 100%;
-    height: 100%;
-    background: grey;
+    width: 140px;
+    height: 140px;
+    /* background: grey; */
+}
+
+.info-icon .icon svg{
+    height: 120px;
+    width: 120px;
+    fill: rgba(46, 171, 123, 1);
 }
 
 
