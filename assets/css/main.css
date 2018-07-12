@@ -659,16 +659,19 @@ Feature Case Section
 
 .case-studies-list a:hover{
     text-decoration: none;
+    color: rgba(46, 171, 123, 1);
 }
 
 .case-studies-list a i{
     font-size: 20px;
+    /* color: grey; */
     transition: 0.2s all ease-in-out;
 }
 
 .case-studies-list a:hover i{
     /* transform: scale(1.2,1.2); */
     font-size: 30px;
+    color: rgba(46, 171, 123, 1) !important;
 }
 
 
