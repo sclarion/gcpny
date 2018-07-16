@@ -301,7 +301,7 @@ Hero Section
 }
 
 .hero-content h2{
-    padding-top: 70px;
+    /* padding-top: 70px; */
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -312,8 +312,7 @@ Hero Section
 }
 
 .hero-content ul{
-    list-style: none;
-    padding: 0px;
+    list-style: none;    
 }
 
 .hero-content li{
@@ -321,29 +320,60 @@ Hero Section
     padding: 0px 20px;
 }
 
-.child .header-text{
+.child .hero-text{
     position: absolute;
     left: 50%;
     bottom: 10%;
     transform: translate(-50%, 0);
 }
 
-.header-text{
+.hero-text{
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.hero-content a{
+    color: rgba(215, 215, 215, 1);
+    text-decoration: none;
+}
+
+.hero-content a:hover{
+    color: white;
 }
 
 .page-nav{
-
+    padding: 0px;
 }
 
 .breadcrumbs{
     position: absolute;
+    width: 100%;
     left: 0px;
-    top: 90px;
+    top: 80px;
+    padding: 5px 5px 5px 20px;
+    /* margin-left: 20px; */
+    background: rgba(0, 0, 0, 0.3);
 }
+
+.breadcrumbs li{
+    padding: 0px;
+}
+.breadcrumbs li a{
+    font-size: 14px;
+    color: rgba(170, 170, 170, 1);
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    color: rgba(170, 170, 170, 1);
+    content: "/";
+    margin: 0 0.75rem;
+    position: relative;
+    top: 1px;
+    opacity: 1;
+}
+
 
 
 /*------------------------------------------------------*/
