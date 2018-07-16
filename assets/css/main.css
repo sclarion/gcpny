@@ -327,40 +327,74 @@ Hero Section
     color: grey;
 }
 
+
+.hero-content{
+    padding-top: 80px;
+    position: relative;
+}
+
+.hero-content ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.hero-content li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.header-text{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, 0);
+}
+
+.page-nav{
+
+}
+
+.breadcrumbs{
+    position: absolute;
+    left: 0px;
+    top: 90px;
+}
+
+
 /*------------------------------------------------------*/
 
 .food-hero-section {
-    height: 50vh;    
+    height: 500px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/food-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .pragmatic-hero-section {
-    height: 50vh;    
+    height: 500px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/pragmatic-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .about-us-hero-section{
-    height: 50vh;    
+    height: 500px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/about-us-bg.jpg) no-repeat center -150px;
     background-size: cover;
 }
 
 .about-us-hero-section{
-    height: 50vh;    
+    height: 500px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/about-us-bg.jpg) no-repeat center -150px;
     background-size: cover;
 }
 
 .about-us-hero-section{
-    height: 50vh;    
+    height: 500px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/f7.jpg) no-repeat center -150px;
     background-size: cover;
 }
 
 .careers-hero-section{
-    height: 50vh;    
+    height: 500px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/about-us-bg.jpg) no-repeat center -150px;
     background-size: cover;
 }
