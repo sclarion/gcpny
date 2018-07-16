@@ -181,12 +181,22 @@ Navbar Styles
 }
 
 .navbar-toggler{
-    background: grey;
+    background: grey;   
 }
 
 .navbar-nav .nav-item{
-    padding: 19px 20px;    
+    padding: 19px 13px;    
 }
+
+.main-nav .navbar-toggler-icon .fa{
+    line-height: 1.2;
+    font-size: 24px;
+    color: rgba(39,31,99,1);
+}
+
+/* .main-nav .navbar-nav .dropdown-menu{
+    display: block;
+} */
 
 .navbar-nav .nav-item a{
     color: rgba(39,31,99,1);
@@ -269,6 +279,10 @@ Navbar Styles
 }
 
 
+.navbar-toggler{
+    background: none;
+}
+
 
 /* ==========================================================================
 Hero Section
@@ -282,51 +296,15 @@ Hero Section
     color: white;    
 }
 
-.hero-section .container-fluid{
-    /* position: absolute; */
-}
-
 .hero-section .container-fluid, .hero-section .row{
-    height: 100%;
-    /* position: absolute; */
+    height: 100%;    
 }
 
-/* .child-section .hero-wrapper{
-    height: 100%;
-    width: 100%;
-    position: relative;
-} */
-
-/* .child-section .hero-wrapper .hero-text{    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-} */
-
-/* .child-section.hero-section .hero-wrapper .hero-text{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    transform: translate(-50%,-50%);
-} */
-
-.hero-text h2{
+.hero-content h2{
     padding-top: 70px;
     text-transform: uppercase;
     font-weight: bold;
 }
-
-.hero-text a{
-    color: white;
-}
-
-.hero-text a:hover{
-    text-decoration: none;
-    color: grey;
-}
-
 
 .hero-content{
     padding-top: 80px;
@@ -343,11 +321,18 @@ Hero Section
     padding: 0px 20px;
 }
 
-.header-text{
+.child .header-text{
     position: absolute;
     left: 50%;
     bottom: 10%;
     transform: translate(-50%, 0);
+}
+
+.header-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .page-nav{
