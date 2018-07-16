@@ -302,8 +302,11 @@ Hero Section
 
 .hero-content h2{
     /* padding-top: 70px; */
-    text-transform: uppercase;
-    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    letter-spacing: 2px;
 }
 
 .hero-content{
@@ -457,6 +460,12 @@ Feature Section
 
 .feature-section{
     padding: 100px 0px;
+}
+
+.feature-section h2{
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
 }
 
 .feature-section a{
