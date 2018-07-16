@@ -602,6 +602,37 @@ Capabilities Section
 }
 
 
+/* ==========================================================================
+Capability - Operation
+========================================================================== */
+.operations-table{
+    /* background: pink; */
+}
+
+.operations-table .table-column{
+    width: 180px;
+    word-wrap: break-word;
+    margin: 0px 10px;
+}
+
+.operations-table .row-one{
+    display: block;
+    height: 70px;
+}
+
+.operations-table .row-two{
+    height: 250px;
+}
+
+.operations-table .row-three{
+    height: 250px;
+}
+
+.operations-table ul{
+    padding: 0px;
+}
+
+
 
 /* ==========================================================================
 Landing Page/ Listing Page
