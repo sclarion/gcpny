@@ -302,10 +302,11 @@ Hero Section
 
 .hero-content h2{
     /* padding-top: 70px; */
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     font-weight: 600;
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 60px;
     letter-spacing: 2px;
 }
 
