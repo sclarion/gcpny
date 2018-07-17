@@ -225,6 +225,10 @@ Navbar Styles
     background: rgba(127, 111, 172, 0.1);
 } */
 
+.dropdown-toggle::after{
+    display: none;
+}
+
 .child-nav{
     width: 100%;
     position: absolute;
@@ -955,7 +959,7 @@ footer {
     background: white;
     padding: 50px 0px 0px;
     color: rgba(39,31,99,1);
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .footer-col{
@@ -1212,8 +1216,8 @@ Services Umbrella Section
 
 .footer-col{
     flex-wrap: nowrap!important;
-    -ms-flex-pack: distribute!important;
-    justify-content: space-around!important;
+    /* -ms-flex-pack: distribute!important;
+    justify-content: space-around!important; */
 }
 
  .footer-col-2{
