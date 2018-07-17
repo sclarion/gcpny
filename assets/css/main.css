@@ -323,6 +323,10 @@ Hero Section
     position: relative;
 }
 
+.hero-content a{
+    font-size: 22px;
+}
+
 .hero-content ul{
     list-style: none;    
 }
@@ -330,12 +334,13 @@ Hero Section
 .hero-content li{
     display: inline-block;
     padding: 0px 20px;
+    font-size: 15px;
 }
 
 .child .hero-text{
     position: absolute;
     left: 50%;
-    bottom: 10%;
+    bottom: 25%;
     transform: translate(-50%, 0);
 }
 
@@ -363,24 +368,26 @@ Hero Section
     position: absolute;
     width: 100%;
     left: 0px;
-    top: 80px;
+    top: 90px;
     padding: 5px 5px 5px 20px;
     /* margin-left: 20px; */
-    background: rgba(0, 0, 0, 0.3);
+    /* background: rgba(0, 0, 0, 0.3); */
 }
 
 .breadcrumbs li{
     padding: 0px;
 }
 .breadcrumbs li a{
-    font-size: 14px;
-    color: rgba(170, 170, 170, 1);
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .breadcrumbs li:not(:last-child)::after {
-    color: rgba(170, 170, 170, 1);
-    content: "/";
+    color: rgba(255, 255, 255, 1);
+    font-family: "FontAwesome";
+    content: "\f0da";
     margin: 0 0.75rem;
+    margin-left: 18px;
     position: relative;
     top: 1px;
     opacity: 1;
@@ -402,6 +409,11 @@ Hero Section
     background-size: cover;
 }
 
+.food-hero-section{
+    background: linear-gradient( 45deg, rgba(55, 46, 125, 0.6) 0%, rgba(0, 140, 255, 0.5) 100% ),url(../img/pragmatic-bg.jpg) center top no-repeat;
+    background-size: cover;
+    color: white;
+}
 
 .pragmatic-hero-section {
     height: 500px;    
@@ -774,9 +786,13 @@ Landing Page/ Listing Page
 ========================================================================== */
 
 .icon-box{
-    margin: 10px 40px;
+    margin: 10px 30px;
     text-decoration: none;
     position: relative;
+}
+
+.cap-ind .icon-box{
+    margin: 10px 50px;
 }
 
 .icon-box>a{
