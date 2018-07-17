@@ -638,20 +638,58 @@ Infographic Section
 ========================================================================== */
 
 .infographic-section{
-    background: rgba(38,38,38,1);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/pragmatic-bg.jpg) no-repeat center center;
+    background-size: cover;
     color: white;
 }
 
+.infographic-section{
+    background: linear-gradient( 45deg, rgba(55, 46, 125, 0.6) 0%, rgba(0, 140, 255, 0.5) 100% ),url(../img/pragmatic-bg.jpg) center top no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.infographic-section h3{
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Playfair Display SC', serif; */
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 .infographic-section .row{
+    margin-bottom: 0px;
+}
+
+.info-text{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.info-box{
+    /* background: rgba(55, 46, 125, 1); */
+    background: rgba(255,255,255,0.9);
+    color: rgba(55, 46, 125, 1);
+    /* max-width: 600px; */
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0 auto;
     margin-bottom: 20px;
+}
+
+.info-box:last-child{
+    margin-bottom: 0px;
+}
+
+.info-box h3{
+    margin: 0px;
 }
 
 .info-icon{
     display: block;
     margin-top: 1;
     width: 140px;
-    height: 140px;
-    /* background: grey; */
+    height: 140px;    
 }
 
 .info-icon .icon svg{
@@ -1276,4 +1314,32 @@ Author's custom styles
    
    
    
+    }
+
+
+
+
+
+
+
+    @media screen and (min-width: 1400px) {
+    /* ==========================================================================
+    Footer Section
+    ========================================================================== */
+
+        .footer-about-us{
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+
+        .footer-nav{
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+
+
     }
