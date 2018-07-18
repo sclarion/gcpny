@@ -1078,6 +1078,10 @@ footer .container-fluid{
     color: grey;
 }
 
+.copy-right{
+    margin-bottom: 20px;
+}
+
 .social-icons li a .fab{
    font-size: 25px;
    padding: 0px 5px;
