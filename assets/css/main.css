@@ -318,6 +318,10 @@ Hero Section
     font-size: 60px;
 }
 
+.child .hero-section{
+    margin-top: 80px;
+}
+
 .hero-content{
     padding-top: 80px;
     position: relative;
@@ -340,15 +344,15 @@ Hero Section
 .child .hero-text{
     position: absolute;
     left: 50%;
-    bottom: 25%;
-    transform: translate(-50%, 0);
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hero-text{
     position: absolute;
     left: 50%;
-    bottom: 50%;
-    transform: translate(-50%, 50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hero-content a{
@@ -368,7 +372,7 @@ Hero Section
     position: absolute;
     width: 100%;
     left: 0px;
-    top: 90px;
+    top: 10px;
     padding: 5px 5px 5px 20px;
     /* margin-left: 20px; */
     /* background: rgba(0, 0, 0, 0.3); */
@@ -404,7 +408,7 @@ Hero Section
 } */
 
 .food-hero-section {
-    height: 500px;    
+    height: 400px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/pragmatic-bg.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -708,6 +712,7 @@ Infographic Section
     height: 120px;
     width: 120px;
     fill: rgba(46, 171, 123, 1);
+    /* color: rgba(55, 46, 125, 1); */
 }
 
 
@@ -811,6 +816,7 @@ Landing Page/ Listing Page
 .icon-box:hover .icon svg{
     /* fill: rgba(55, 46, 125, 1); */
     fill: rgba(46, 171, 123, 1);
+    /* fill: rgba(55, 46, 125, 1); */
     /* fill: rgba(255,151,6,1); */
 }
 
