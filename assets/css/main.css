@@ -72,8 +72,10 @@ ol ul{
 .section-heading {
     /* border-bottom: 5px solid yellow; */
     position: relative;
-    padding-bottom: 25px;
+    padding-bottom: 25px;    
 }
+
+
 
 /* .section-heading::after {
     position: absolute;    
@@ -166,17 +168,28 @@ Navbar Styles
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
 }
 
-.main-nav .dropdown-menu{
+.main-nav .dropdown-menu{    
+    box-sizing: border-box;
     border: 0px;
-    border-bottom: 5px solid rgba(55, 46, 125, 1);
+    /* border-top: 15px solid rgba(55, 46, 125, 0.5);
+    border-bottom: 15px solid rgba(55, 46, 125, 0.5); */
     -webkit-box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.5);
 }
 
+.main-nav .dropdown-menu> a:first-child{
+    border-top: 5px solid rgba(55, 46, 125, 0.5);
+}
+
+.main-nav .dropdown-menu> a:last-child{
+    border-bottom: 5px solid rgba(55, 46, 125, 0.5);
+}
+
+
 .dropdown:hover>.dropdown-menu {
     display: block;
-    transform: translateY(3px);
+    transform: translateY(-1px);
 }
 
 .navbar-collapse{
@@ -193,9 +206,9 @@ Navbar Styles
 }
 
 .navbar-nav .nav-item{
-    padding: 20px 13px 14px 13px;
+    padding: 19px 13px 19px 13px;
     /* margin-bottom: 19px; */
-    border-bottom: 5px solid white;
+    /* border-bottom: 5px solid white; */
 }
 
 .main-nav .navbar-toggler-icon .fa{
@@ -214,7 +227,7 @@ Navbar Styles
 
 .main-nav .nav-item:hover{
     background: rgba(55, 46, 125, 0.03);
-    border-bottom: 5px solid rgba(55, 46, 125, 1);
+    /* border-bottom: 5px solid rgba(55, 46, 125, 1); */
 }
 
 .main-nav .nav-item:hover > a{    
@@ -414,7 +427,7 @@ Hero Section
 }
 
 .breadcrumbs li{
-    padding: 0px;    
+    padding: 0px 10px;    
 }
 
 .breadcrumbs li:first-child{
@@ -426,12 +439,15 @@ Hero Section
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* .breadcrumbs .hyphen{
-    font-size: 9px;
-    line-height: 1.6;
-} */
+.breadcrumbs .hyphen{
+    font-size: 9px;    
+}
 
-.breadcrumbs li:not(:last-child)::after {
+.breadcrumbs .hyphen i{
+    font-size: 9px;    
+}
+
+/* .breadcrumbs li:not(:last-child)::after {
     color: rgba(255, 255, 255, 1);
     font-family: "FontAwesome";
     content: "\f0da";
@@ -440,7 +456,7 @@ Hero Section
     position: relative;
     top: 1px;
     opacity: 1;
-}
+} */
 
 
 
@@ -540,9 +556,11 @@ Feature Section
 }
 
 .feature-section h2{
-    font-weight: 500;
-    font-size: 40px;
-    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 30px;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
 }
 
 .feature-section a{
@@ -853,7 +871,7 @@ Landing Page/ Listing Page
 }
 
 .cap-ind .icon-box{
-    margin: 10px 50px;
+    margin: 10px 70px;
 }
 
 .icon-box>a{
@@ -865,8 +883,8 @@ Landing Page/ Listing Page
 }
 
 .icon-box .icon svg{
-    height: 140px;  
-    fill: grey;
+    height: 120px;  
+    fill: rgba(0,0,0,1);
     /* fill: rgba(55, 46, 125, 1); */
 }
 
@@ -886,8 +904,8 @@ Landing Page/ Listing Page
 .icon{
     display: block;
     margin: 0 auto;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     /* background: rgb(187, 187, 187); */
 }
 
