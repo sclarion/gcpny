@@ -329,6 +329,10 @@ Hero Section
     text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
+.child .hero-content h2{
+    text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
 .child .hero-section .hero-content h2{
     font-size: 60px;
 }
