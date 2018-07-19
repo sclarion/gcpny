@@ -166,9 +166,17 @@ Navbar Styles
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
 }
 
+.main-nav .dropdown-menu{
+    border: 0px;
+    border-bottom: 5px solid rgba(55, 46, 125, 1);
+    -webkit-box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.5);
+}
+
 .dropdown:hover>.dropdown-menu {
     display: block;
-    transform: translateY(-2px);
+    transform: translateY(3px);
 }
 
 .navbar-collapse{
@@ -185,7 +193,9 @@ Navbar Styles
 }
 
 .navbar-nav .nav-item{
-    padding: 19px 13px;    
+    padding: 20px 13px 14px 13px;
+    /* margin-bottom: 19px; */
+    border-bottom: 5px solid white;
 }
 
 .main-nav .navbar-toggler-icon .fa{
@@ -204,6 +214,7 @@ Navbar Styles
 
 .main-nav .nav-item:hover{
     background: rgba(55, 46, 125, 0.03);
+    border-bottom: 5px solid rgba(55, 46, 125, 1);
 }
 
 .main-nav .nav-item:hover > a{    
@@ -296,11 +307,12 @@ Hero Section
 .hero-section{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/hero-bg.jpg) no-repeat center center;
     background-size: cover; 
-    height: 99vh;
+    height: 100vh;
+    /* height: 100%; */
     color: white;    
 }
 
-.hero-section .container-fluid, .hero-section .row{
+.hero-section .container-fluid,.hero-section .container, .hero-section .row{
     height: 100%;    
 }
 
@@ -312,6 +324,9 @@ Hero Section
     font-family: 'Montserrat', sans-serif; 
     font-size: 60px;
     letter-spacing: 2px;
+    /* -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5); */
+    text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
 .child .hero-section .hero-content h2{
@@ -319,12 +334,17 @@ Hero Section
 }
 
 .child .hero-section{
-    margin-top: 80px;
+    margin-top: 80px;   
 }
 
 .hero-content{
     padding-top: 80px;
     position: relative;
+    border-bottom: 10px solid rgba(55, 46, 125, 1);
+}
+
+.child .hero-section .hero-content{   
+    border: none!important;
 }
 
 .hero-content a{
@@ -343,9 +363,10 @@ Hero Section
 
 .child .hero-text{
     position: absolute;
-    left: 50%;
+    padding-left: 20px;
+    left: 0%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, -50%);
 }
 
 .hero-text{
@@ -366,6 +387,10 @@ Hero Section
 
 .page-nav{
     padding: 0px;
+}
+
+.page-nav li:first-child{
+    padding-left: 0px;
 }
 
 .breadcrumbs{
@@ -507,18 +532,6 @@ Feature Section
 .feature-section:nth-child(odd){
     background: rgba(245, 247, 251, 1);
 }
-
-/* .child .feature-section:nth-child(even){
-    background: rgba(245, 247, 251, 1);
-}
-
-.child .feature-section:nth-child(odd){
-    background: white;
-} */
-
-/* .feature2{
-    background: rgba(245, 247, 251, 1);
-} */
 
 figure.tile{
     position: relative;
@@ -668,9 +681,32 @@ Infographic Section
 .infographic-section h3{
     /* font-family: 'Playfair Display', serif; */
     /* font-family: 'Playfair Display SC', serif; */
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.home.infographic-section .icon{
+    height: 120px;
+}
+
+.home.infographic-section .icon svg{
+    height: 90px;
+}
+
+.home.infographic-section .icon-text{
+    margin-bottom: 40px;
+    /* max-width: 400px; */
+
+}
+
+.home.infographic-section .icon-text p{
+    width: auto;    
+    margin-bottom: 0px;
+}
+
+.infographic-section p{
+    font-size: 15px;
 }
 
 .infographic-section .row{
@@ -835,8 +871,8 @@ Landing Page/ Listing Page
 }
 
 .icon svg{
-    height: 150px;    
-    fill: rgba(255,151,6,1);
+    fill: white;
+    /* fill: rgba(255,151,6,1); */
 }
 
 .icon-text p {
@@ -1139,6 +1175,9 @@ footer .logo a {
     font-weight: 600;
 }
 
+.footer-col .address{
+    width: 100%;
+}
 
 
 
@@ -1236,7 +1275,7 @@ About Us Section
 
 
 .footer-col-2{
-    width: 33%;    
+    width: auto;    
 }
 
 
@@ -1260,7 +1299,16 @@ Screen above 992px - lg
 Services Umbrella Section
 ========================================================================== */
 
+.home.infographic-section .icon-text{
+    text-align: left !important;
+}
 
+.home.infographic-section .icon-text p{
+    width: auto;
+    padding-right: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 
 
@@ -1290,7 +1338,9 @@ Services Umbrella Section
     width: auto;  
 }
 
-
+.footer-col .address{
+    width: auto;
+}
 
 
 
@@ -1362,12 +1412,18 @@ Author's custom styles
             max-width: 25%;
         }
 
+        .footer-about-us p{
+            padding-right: 20px;
+        }
+
         .footer-nav{
             -webkit-box-flex: 0;
             -ms-flex: 0 0 75%;
             flex: 0 0 75%;
             max-width: 75%;
         }
+
+
 
 
     }
