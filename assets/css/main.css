@@ -305,7 +305,7 @@ Hero Section
 
 /*------------------------------------------------------*/
 .hero-section{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/hero-bg.jpg) no-repeat center center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 80% ),url(../img/hero-bg.jpg) no-repeat center center;
     background-size: cover; 
     height: 100vh;
     /* height: 100%; */
@@ -344,7 +344,7 @@ Hero Section
 .hero-content{
     padding-top: 80px;
     position: relative;
-    border-bottom: 10px solid rgba(55, 46, 125, 1);
+    /* border-bottom: 10px solid rgba(55, 46, 125, 1); */
 }
 
 .child .hero-section .hero-content{   
@@ -380,6 +380,12 @@ Hero Section
     transform: translate(-50%, -50%);
 }
 
+.hero-content .hyphen{
+    font-size: 12px;
+    line-height: 2.8;
+    padding: 0px;
+}
+
 .hero-content a{
     color: rgba(215, 215, 215, 1);
     text-decoration: none;
@@ -408,12 +414,22 @@ Hero Section
 }
 
 .breadcrumbs li{
-    padding: 0px;
+    padding: 0px;    
 }
+
+.breadcrumbs li:first-child{
+    padding-left: 0px;    
+}
+
 .breadcrumbs li a{
     font-size: 17px;
     color: rgba(255, 255, 255, 0.8);
 }
+
+/* .breadcrumbs .hyphen{
+    font-size: 9px;
+    line-height: 1.6;
+} */
 
 .breadcrumbs li:not(:last-child)::after {
     color: rgba(255, 255, 255, 1);
@@ -849,6 +865,7 @@ Landing Page/ Listing Page
 }
 
 .icon-box .icon svg{
+    height: 140px;  
     fill: grey;
     /* fill: rgba(55, 46, 125, 1); */
 }
@@ -1320,7 +1337,10 @@ Services Umbrella Section
  Author's custom styles
  ========================================================================== */
 
-
+ .home.infographic-section .icon-text {
+    margin-bottom: 0px;
+    /* max-width: 400px; */
+}
 
 
  /* ==========================================================================
