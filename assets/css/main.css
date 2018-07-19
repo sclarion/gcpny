@@ -708,6 +708,7 @@ Infographic Section
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/pragmatic-bg.jpg) no-repeat center center;
     background-size: cover;
     color: white;
+    padding: 150px 0px;
 }
 
 .infographic-section{
@@ -733,7 +734,7 @@ Infographic Section
 }
 
 .home.infographic-section .icon-text{
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     /* max-width: 400px; */
 
 }
@@ -884,20 +885,21 @@ Landing Page/ Listing Page
 
 .icon-box .icon svg{
     height: 120px;  
-    fill: rgba(0,0,0,1);
+    fill: rgba(0,0,0,0.6);
     /* fill: rgba(55, 46, 125, 1); */
 }
 
 .icon-box:hover .icon svg{
-    /* fill: rgba(55, 46, 125, 1); */
-    fill: rgba(46, 171, 123, 1);
+    fill: rgba(55, 46, 125, 1);
+    /* fill: rgba(46, 171, 123, 1); */
     /* fill: rgba(55, 46, 125, 1); */
     /* fill: rgba(255,151,6,1); */
 }
 
 .icon-box:hover .icon-text p{
     text-decoration: none!important;
-    color: rgba(46, 171, 123, 1);
+    /* color: rgba(46, 171, 123, 1); */
+    color: rgba(55, 46, 125, 1);
 }
 
 
