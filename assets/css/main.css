@@ -307,7 +307,7 @@ Hero Section
 .hero-section{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 80% ),url(../img/hero-bg.jpg) no-repeat center center;
     background-size: cover; 
-    height: 100vh;
+    height: 99vh;
     /* height: 100%; */
     color: white;    
 }
@@ -898,7 +898,8 @@ Landing Page/ Listing Page
 
 .icon-text p {
     margin-top: 1rem;
-    width: 150px;    
+    width: 150px;  
+    font-weight: 500;  
 }
 
 
