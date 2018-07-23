@@ -393,7 +393,7 @@ Hero Section
     transform: translate(-50%, -50%);
 }
 
-.hero-content .hyphen{
+.child .hero-content .hyphen{
     font-size: 12px;
     line-height: 2.8;
     padding: 0px;
@@ -406,6 +406,32 @@ Hero Section
 
 .hero-content a:hover{
     color: white;
+}
+
+.hero-content .page-nav li, .hero-content .breadcrumbs li{
+    position: relative;   
+}
+
+.hero-content .page-nav li:not(:last-child)::after{
+    position: absolute;
+    content: '';
+    display: block;
+    right: -5px;
+    top: 14px;
+    width: 10px;
+    height: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.hero-content .breadcrumbs li:not(:last-child)::after{
+    position: absolute;
+    content: '';
+    display: block;
+    right: -5px;
+    top: 9px;
+    width: 8px;
+    height: 5px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
 }
 
 .page-nav{
@@ -427,7 +453,7 @@ Hero Section
 }
 
 .breadcrumbs li{
-    padding: 0px 10px;    
+    padding: 0px 15px;    
 }
 
 .breadcrumbs li:first-child{
@@ -440,7 +466,7 @@ Hero Section
 }
 
 .breadcrumbs .hyphen{
-    font-size: 9px;    
+    font-size: 8px;    
 }
 
 .breadcrumbs .hyphen i{
@@ -806,6 +832,10 @@ Capabilities Section
     padding-top: 10px;
 }
 
+.capability-section .container{
+    max-width: 800px;
+}
+
 
 /* ==========================================================================
 Capability - Operation
@@ -872,7 +902,7 @@ Landing Page/ Listing Page
 }
 
 .cap-ind .icon-box{
-    margin: 10px 70px;
+    margin: 10px 40px 30px;    
 }
 
 .icon-box>a{
@@ -949,7 +979,8 @@ Feature Case Section
 }
 
 .case-studies-list{
-
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .case-studies-list a{
@@ -967,7 +998,7 @@ Feature Case Section
 }
 
 .case-studies-list a i{
-    font-size: 20px;
+    font-size: 18px;
     /* color: grey; */
     transition: 0.2s all ease-in-out;
 }
