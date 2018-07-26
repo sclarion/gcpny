@@ -1,4 +1,3 @@
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -20,8 +19,6 @@
     font-family: 'Crimson Text', serif;
     font-family: 'Source Serif Pro', serif;
     font-family: 'Playfair Display SC', serif;
-
-
     font-family: 'Merriweather Sans', sans-serif; 
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -32,8 +29,6 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Muli', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-
-
    */
 
 /* ==========================================================================
@@ -503,6 +498,13 @@ Hero Section
     color: white;
 }
 
+.food-hero-section{
+    height: 400px;  
+    background: linear-gradient( 45deg, rgba(55, 46, 125, 0.6) 0%, rgba(0, 140, 255, 0.5) 100% ),url(../img/food1.jpg) center top no-repeat;
+    background-size: cover;
+    color: white;
+}
+
 .pragmatic-hero-section {
     height: 500px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/pragmatic-bg.jpg) no-repeat center center;
@@ -897,6 +899,7 @@ Landing Page/ Listing Page
 
 .icon-box .icon svg{
     height: 120px;  
+    width: 120px;  
     fill: rgba(0,0,0,0.6);
     /* fill: rgba(55, 46, 125, 1); */
 }

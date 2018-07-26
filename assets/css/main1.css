@@ -179,11 +179,12 @@ Navbar Styles
 }
 
 .main-nav .dropdown-menu> a:first-child{
-    border-top: 5px solid rgba(55, 46, 125, 0.5);
+    /* border-top: 5px solid rgba(55, 46, 125, 0.5); */
+    border-top: 3px solid rgba(36, 26, 57, 1);
 }
 
 .main-nav .dropdown-menu> a:last-child{
-    border-bottom: 5px solid rgba(55, 46, 125, 0.5);
+    /* border-bottom: 5px solid rgba(55, 46, 125, 0.5); */
 }
 
 
@@ -223,6 +224,7 @@ Navbar Styles
 
 .navbar-nav .nav-item a{
     color: rgba(39,31,99,1);
+    font-weight: 500;
 }
 
 .main-nav .nav-item:hover{
@@ -317,13 +319,21 @@ Hero Section
 ========================================================================== */
 
 /*------------------------------------------------------*/
-.hero-section{
+/* .hero-section{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 80% ),url(../img/hero-bg.jpg) no-repeat center center;
     background-size: cover; 
-    height: 99vh;
-    /* height: 100%; */
+    height: 99vh;    
+    color: white;    
+} */
+
+.hero-section{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 80% ),url(../img/hero-bg1.png) no-repeat center center;
+    background-size: cover; 
+    height: 99vh;    
     color: white;    
 }
+
+
 
 .hero-section .container-fluid,.hero-section .container, .hero-section .row{
     height: 100%;    
@@ -577,6 +587,10 @@ Hero Section
 Feature Section
 ========================================================================== */
 
+.feature-section p{
+    font-weight: 500;
+}
+
 .feature-section{
     padding: 100px 0px;
 }
@@ -730,18 +744,25 @@ Large window Section
 Infographic Section
 ========================================================================== */
 
-.infographic-section{
+/* .infographic-section{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/pragmatic-bg.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 150px 0px;
+} */
+
+.infographic-section{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/pragmatic-bg1.jpg) no-repeat center center;
     background-size: cover;
     color: white;
     padding: 150px 0px;
 }
 
-.infographic-section{
+/* .infographic-section{
     background: linear-gradient( 45deg, rgba(55, 46, 125, 0.6) 0%, rgba(0, 140, 255, 0.5) 100% ),url(../img/pragmatic-bg.jpg) center top no-repeat;
     background-size: cover;
     color: white;
-}
+} */
 
 .infographic-section h3{
     /* font-family: 'Playfair Display', serif; */
@@ -915,6 +936,7 @@ Landing Page/ Listing Page
 
 .icon-box .icon svg{
     height: 120px;  
+    width: 120px;
     fill: rgba(0,0,0,0.6);
     /* fill: rgba(55, 46, 125, 1); */
 }
@@ -966,7 +988,7 @@ Feature Case Section
 }
 
 .case-studies-section p{
-    color: #999;
+    color: rgba(200,200,200, 1);
 }
 
 
@@ -1483,23 +1505,53 @@ Author's custom styles
 
         .footer-about-us{
             -webkit-box-flex: 0;
-            -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-            max-width: 25%;
+            -ms-flex: 0 0 35%;
+            flex: 0 0 35%;
+            max-width: 35%;
         }
 
         .footer-about-us p{
-            padding-right: 20px;
+            padding-right: 10px;
         }
 
         .footer-nav{
             -webkit-box-flex: 0;
-            -ms-flex: 0 0 75%;
-            flex: 0 0 75%;
-            max-width: 75%;
+            -ms-flex: 0 0 65%;
+            flex: 0 0 65%;
+            max-width: 65%;
         }
 
 
 
 
     }
+
+
+
+    @media screen and (min-width: 1600px) {
+        /* ==========================================================================
+        Footer Section
+        ========================================================================== */
+    
+            .footer-about-us{
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 40%;
+                flex: 0 0 40%;
+                max-width: 40%;
+            }
+    
+            .footer-about-us p{
+                padding-right: 20px;
+            }
+    
+            .footer-nav{
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 60%;
+                flex: 0 0 60%;
+                max-width: 60%;
+            }
+    
+    
+    
+    
+        }
