@@ -990,13 +990,17 @@ Feature Case Section
 ========================================================================== */
 
 .case-studies-section{
-    background: rgba(38,38,38,1);
+    background: rgba(38,38,38,1) !important;
     color: #fff;
 }
 
 .case-studies-section p{
     color: rgba(200,200,200, 1);
 }
+
+/* .child .case-studies-section p{
+    color: rgba(200,200,200, 1);
+} */
 
 
 .case-studies-section> figcaption{
