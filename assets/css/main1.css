@@ -516,6 +516,13 @@ Hero Section
     color: white;
 }
 
+.food1-hero-section{
+    height: 400px;  
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/food1.jpg) center -600px no-repeat;
+    background-size: cover;
+    color: white;
+}
+
 .pragmatic-hero-section {
     height: 500px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/pragmatic-bg.jpg) no-repeat center center;
