@@ -384,7 +384,7 @@ Hero Section
 
 .hero-content li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 30px;
     font-size: 15px;
 }
 
@@ -430,7 +430,7 @@ Hero Section
     top: 14px;
     width: 10px;
     height: 5px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    /* border-bottom: 2px solid rgba(255, 255, 255, 0.8); */
 }
 
 .hero-content .breadcrumbs li:not(:last-child)::after{
@@ -441,7 +441,7 @@ Hero Section
     top: 9px;
     width: 8px;
     height: 5px;
-    border-bottom: 1.5px solid rgba(255, 255, 255, 0.8);
+    /* border-bottom: 1.5px solid rgba(255, 255, 255, 0.8); */
 }
 
 .page-nav{
@@ -450,6 +450,10 @@ Hero Section
 
 .page-nav li:first-child{
     padding-left: 0px;
+}
+
+.page-nav li:last-child{
+    padding-right: 0px;
 }
 
 .breadcrumbs{
