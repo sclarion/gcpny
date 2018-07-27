@@ -23,12 +23,37 @@
       <link href="assets/css/slick.css" rel="stylesheet">
       <link href="assets/css/slick-theme.css" rel="stylesheet">
 
-      <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+      <link rel="stylesheet" href="assets/css/main1.css" type="text/css">
       <!--[if lt IE 9]> 
           <script src="assets/js/html5shiv.js"></script> 
           <script src="assets/js/respond.min.js"></script>
       <![endif]--> 
    </head>
+
+   <style>
+
+   .hero-content .breadcrumbs li:not(:last-child)::after{
+            position: absolute;
+            content: '/';
+            display: block;
+            right: -5px;
+            top: 3px;
+            width: 8px;
+            height: 5px;
+            border-bottom: none;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .child .hero-text{
+            width: 1000px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+   </style>
+
    <body class="child">
 
     <header>
@@ -104,13 +129,13 @@
 
     <main>
        
-        <section class="hero-section food-hero-section">
-            <div class="container">
+        <section class="hero-section food1-hero-section">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 hero-content">
                         <div class="hero-text text-center">
-                            <h2  class="display-4 text-left">Sub Industry Page</h2>
-                            <ul class="page-nav text-center d-flex justify-content-start">
+                            <h2  class="display-4 text-center">Baked Goods</h2>
+                            <ul class="page-nav text-center d-flex justify-content-center">
                                 <li><a href="">Overview</a></li>                                
                                 <li><a href="">Information</a></li>                                
                                 <li><a href="">Case Studies</a></li>
@@ -119,13 +144,12 @@
                         <ul class="breadcrumbs d-flex justify-content-start">
                             <li><a href="">Home</a></li>                            
                             <li><a href="">Industries</a></li>                            
-                            <li><a href="">Due Diligence</a></li>
+                            <li><a href="">Baked Goods</a></li>
                         </ul>                        
                     </div><!--end of hero-text-->
                 </div>
             </div>
-        </section> 
-
+        </section>
 
         <section class=" mini-feature-section feature-section feature1">
             <div class="container">
@@ -329,37 +353,37 @@
                             <div class="col-md-4 end-block">
                                 <a href="industry_page.html">
                                     <h5>Baked Goods</h5>
-                                    <i class="fas fa-plus"></i>
+                                    <i class="fas fa-caret-down"></i>
                                 </a>
                             </div>
                             <div class="col-md-4 end-block">
                                 <a href="industry_page.html">
                                     <h5>Meat Products</h5>
-                                    <i class="fas fa-plus"></i>
+                                    <i class="fas fa-caret-down"></i>
                                 </a>
                             </div>
                             <div class="col-md-4 end-block">
                                 <a href="industry_page.html">
                                     <h5>Italian Speciality Products</h5>
-                                    <i class="fas fa-plus"></i>
+                                    <i class="fas fa-caret-down"></i>
                                 </a>
                             </div>
                             <div class="col-md-4 end-block">
                                 <a href="industry_page.html">
                                     <h5>Pet Foods</h5>
-                                    <i class="fas fa-plus"></i>
+                                    <i class="fas fa-caret-down"></i>
                                 </a>
                             </div>
                             <div class="col-md-4 end-block">
                                 <a href="industry_page.html">
                                     <h5>Fresh Soups</h5>
-                                    <i class="fas fa-plus"></i>
+                                    <i class="fas fa-caret-down"></i>
                                 </a>
                             </div>
                             <div class="col-md-4 end-block">
                                 <a href="industry_page.html">
                                     <h5>Frozen Snacks</h5>
-                                    <i class="fas fa-plus"></i>
+                                    <i class="fas fa-caret-down"></i>
                                 </a>
                             </div>                            
                         </div>

@@ -180,7 +180,7 @@ Navbar Styles
 
 .main-nav .dropdown-menu> a:first-child{
     /* border-top: 5px solid rgba(55, 46, 125, 0.5); */
-    border-top: 3px solid rgba(36, 26, 57, 1);
+    /* border-top: 3px solid rgba(36, 26, 57, 1); */
 }
 
 .main-nav .dropdown-menu> a:last-child{
@@ -190,7 +190,7 @@ Navbar Styles
 
 .dropdown:hover>.dropdown-menu {
     display: block;
-    transform: translateY(-1px);
+    transform: translateY(1px);
 }
 
 .navbar-collapse{
@@ -228,7 +228,7 @@ Navbar Styles
 }
 
 .main-nav .nav-item:hover{
-    background: rgba(55, 46, 125, 0.03);
+    /* background: rgba(55, 46, 125, 0.03); */
     /* border-bottom: 5px solid rgba(55, 46, 125, 1); */
 }
 
@@ -518,7 +518,7 @@ Hero Section
 
 .food1-hero-section{
     height: 400px;  
-    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/food1.jpg) center -600px no-repeat;
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/food1.jpg) center center no-repeat;
     background-size: cover;
     color: white;
 }
@@ -779,6 +779,10 @@ Infographic Section
     text-transform: uppercase;
 }
 
+.home.infographic-section{
+    padding: 150px 0px;
+}
+
 .home.infographic-section .icon{
     height: 120px;
 }
@@ -1001,7 +1005,6 @@ Feature Case Section
 /* .child .case-studies-section p{
     color: rgba(200,200,200, 1);
 } */
-
 
 .case-studies-section> figcaption{
     font-size: 16px;
