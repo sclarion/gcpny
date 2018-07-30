@@ -251,6 +251,14 @@ Navbar Styles
     background: rgba(127, 111, 172, 0.1);
 } */
 
+.nav-item.dropdown{
+    border-bottom: 3px solid white              ;
+}
+
+.nav-item.dropdown:hover{
+    border-bottom: 3px solid rgba(36, 26, 57, 1);
+}
+
 .dropdown-toggle::after{
     display: none;
 }
