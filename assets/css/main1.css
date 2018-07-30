@@ -498,6 +498,26 @@ Hero Section
     opacity: 1;
 } */
 
+.hero-content .breadcrumbs li:not(:last-child)::after{
+    position: absolute;
+    content: '/';
+    display: block;
+    right: -5px;
+    top: 3px;
+    width: 8px;
+    height: 5px;
+    border-bottom: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.child .hero-text{
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 
 /*------------------------------------------------------*/
@@ -584,9 +604,13 @@ Hero Section
     background-size: cover;
 } */
 
+/* ==========================================================================
+Intro Section
+========================================================================== */
 
-
-
+.intro-section{
+    padding: 120px 0px 10px 0px;
+}
 
 
 
