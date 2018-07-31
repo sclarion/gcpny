@@ -526,8 +526,6 @@ Hero Section
     transform: translate(-50%, -50%);
 }
 
-
-
 /*------------------------------------------------------*/
 
 /* .food-hero-section {
@@ -620,7 +618,25 @@ Intro Section
     padding: 120px 0px 10px 0px;
 }
 
+.intro-section .section-heading h2 a{
+    color: rgba(33,37,41,1);
+}
 
+.intro-section .section-heading h2 a i{
+    color: rgba(55, 46, 125, 1);
+    transition: 0.2s all ease-in-out;
+    line-height: 1.2;
+}
+
+.intro-section .section-heading h2 a:hover{
+    color: rgba(55, 46, 125, 1);
+    text-decoration: none;
+}
+
+.intro-section .section-heading h2 a:hover i{
+    transform: translateX(20px);
+    text-decoration: none;
+}
 
 
 
@@ -1047,7 +1063,7 @@ Feature Case Section
 }
 
 .child-section.case-studies-section {
-    color: #212529;
+    color: #fff;
 }
 
 .case-studies-list{
@@ -1055,9 +1071,14 @@ Feature Case Section
     margin: 0 auto;
 }
 
+.case-studies-list i{
+    color: rgba(55, 46, 125, 1);
+}
+
 .case-studies-list a{
-    color: grey;
+    color: black;
     display: block;
+    text-align: left;
     height: 80px;
     transition: 0.2s all ease-in-out;
 }
@@ -1078,6 +1099,7 @@ Feature Case Section
 .case-studies-list a:hover i{
     /* transform: scale(1.2,1.2); */
     font-size: 20px;
+    transform: translateX(10px);
     /* color: rgba(46, 171, 123, 1) !important; */
     color: rgba(55, 46, 125, 1);
 }
