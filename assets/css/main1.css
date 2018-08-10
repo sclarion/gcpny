@@ -63,7 +63,7 @@ ol ul{
     padding: 0px;    
 } */
 
-/* header.container-fluid, .hero-section .container-fluid{
+/* header.container-fluid, .hero-section ..home.infographic-section .icon-text pcontainer-fluid{
     margin: 0px;
     padding: 0px;    
 } */
@@ -129,9 +129,9 @@ h1.logo a {
     display:block;
     height:50px;
     /* top: 5px; */
-    width: 280px;	
+    width: 350px;	
     margin: 20px;
-    background: url(../img/logo.jpg) no-repeat;
+    background: url(../img/logo.png) no-repeat;
     /* border: 1px solid red; */
     background-size: contain;
 }
@@ -335,7 +335,7 @@ Hero Section
 } */
 
 .hero-section{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 80% ),url(../img/hero-bg1.png) no-repeat center center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 80% ),url(../img/hero-bg.jpg) no-repeat center center;
     background-size: cover; 
     height: 99vh;    
     color: white;    
@@ -846,12 +846,12 @@ Infographic Section
 .home.infographic-section .icon-text{
     margin-bottom: 70px;
     /* max-width: 400px; */
-
 }
 
 .home.infographic-section .icon-text p{
     width: auto;    
     margin-bottom: 0px;
+    font-size: 13px;
 }
 
 .infographic-section p{
@@ -900,7 +900,6 @@ Infographic Section
     /* color: rgba(55, 46, 125, 1); */
 }
 
-
 /* ==========================================================================
 Capabilities Section
 ========================================================================== */
@@ -920,10 +919,10 @@ Capabilities Section
     max-width: 800px;
 }
 
-
 /* ==========================================================================
 Capability - Operation
 ========================================================================== */
+
 .operations-table{
     /* background: pink; */
 }
@@ -958,8 +957,6 @@ Capability - Operation
 .operations-table .column-one .row-one{
     background: none;
 }
-
-
 
 .operations-table .row-two{
     height: 250px;
@@ -1000,7 +997,7 @@ Landing Page/ Listing Page
 .icon-box .icon svg{
     height: 120px;  
     width: 120px;
-    fill: rgba(0,0,0,0.6);
+    fill: rgba(33,67,113,1);
     /* fill: rgba(55, 46, 125, 1); */
 }
 
@@ -1017,13 +1014,16 @@ Landing Page/ Listing Page
     color: rgba(55, 46, 125, 1);
 }
 
+.infographic-section .icon{
+    background: none!important;
+}
 
 .icon{
     display: block;
     margin: 0 auto;
-    width: 130px;
-    height: 130px;
-    /* background: rgb(187, 187, 187); */
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 1);
 }
 
 .icon svg{
@@ -1038,20 +1038,28 @@ Landing Page/ Listing Page
 }
 
 
-
-
-
 /* ==========================================================================
 Feature Case Section
 ========================================================================== */
 
 .case-studies-section{
-    background: rgba(38,38,38,1) !important;
+    background: rgb(255, 255, 255) !important;
+    /* background: rgba(38,38,38,1) !important; */
     color: #fff;
 }
 
-.case-studies-section p{
-    color: rgba(200,200,200, 1);
+.feature-section.case-studies-section h5{
+    color: rgba(100,100,100, 1);
+    font-size: 16px;
+}
+
+.feature-section.case-studies-section p{
+    color: rgba(100,100,100, 1);
+    font-size: 13px;
+}
+
+.fig-text {
+    padding: 0px 20px;
 }
 
 /* .child .case-studies-section p{
@@ -1326,7 +1334,7 @@ footer .logo a {
     display:block;
     height:50px;
     /* top: 5px; */
-    width: 280px;	
+    width: 340px;	
     margin: 0px 20px 0px;
     background: url(../img/logo.jpg) no-repeat;
     /* border: 1px solid red; */
