@@ -1059,7 +1059,8 @@ Feature Case Section
 }
 
 .fig-text {
-    padding: 0px 20px;
+    padding: 0px 20px 0px 5px;
+    text-align: left;
 }
 
 /* .child .case-studies-section p{
@@ -1075,8 +1076,8 @@ Feature Case Section
 }
 
 .case-studies-list{
-    /* max-width: 900px; */
-    margin: 0 auto;
+    max-width: 900px;
+    /* margin: 0 auto; */
 }
 
 .case-studies-list i{
