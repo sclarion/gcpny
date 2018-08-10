@@ -672,6 +672,7 @@ Feature Section
 
 figure.tile{
     position: relative;
+    margin: 20px 20px 20px 20px;
 }
 
 .tile > .img::before {
@@ -1059,7 +1060,7 @@ Feature Case Section
 }
 
 .fig-text {
-    padding: 0px 20px 0px 5px;
+    padding: 0px 20px 0px 20px;
     text-align: left;
 }
 
@@ -1337,7 +1338,7 @@ footer .logo a {
     /* top: 5px; */
     width: 340px;	
     margin: 0px 20px 0px;
-    background: url(../img/logo.jpg) no-repeat;
+    background: url(../img/logo.png) no-repeat;
     /* border: 1px solid red; */
     background-size: contain;
 }
