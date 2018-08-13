@@ -656,6 +656,7 @@ Feature Section
 
 .feature-section h2{
     font-weight: 600;
+    color: rgba(100,100,100, 1);
     font-size: 30px;
     /* font-family: 'Playfair Display', serif; */
     font-family: 'Montserrat', sans-serif; 
@@ -691,10 +692,11 @@ figure.tile> figcaption{
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 90%;
     transform: translate(-50%,-50%);
     /* background: white; */
     font-family: 'Montserrat', sans-serif;    
-    font-size: 20px;
+    font-size: 19px;
     /* font-family: 'Playfair Display', serif; */
     font-weight: 600;
     text-transform: uppercase;
@@ -1017,6 +1019,10 @@ Landing Page/ Listing Page
 
 .infographic-section .icon{
     background: none!important;
+}
+
+.icon.merger-icon{
+    background: none;
 }
 
 .icon{
