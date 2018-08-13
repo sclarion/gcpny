@@ -658,9 +658,13 @@ Feature Section
     color: #212529;
 }
 
+.feature-section.infographic-section h2 {
+    color: white;
+}
+
 .feature-section h2{
     font-weight: 600;
-    /* color: rgba(100,100,100, 1); */
+    color: rgba(33,37,41, 1);
     font-size: 30px;
     /* font-family: 'Playfair Display', serif; */
     font-family: 'Montserrat', sans-serif; 
