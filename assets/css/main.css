@@ -1140,12 +1140,16 @@ Feature Case Section
 }
 
 .case-studies-list{
-    max-width: 800px;
+    max-width: 900px;
     /* margin: 0 auto; */
 }
 
 .case-studies-list i{
     color: rgba(55, 46, 125, 1);
+}
+
+.case-studies-list h5{
+    font-size: 16px;
 }
 
 .case-studies-list a{
@@ -1169,17 +1173,21 @@ Feature Case Section
     /* transition: 0.2s all ease-in-out; */
 }
 
-.case-studies-list a:hover .list-icon i {
+.case-studies-list a:hover .list-icon svg{
     /* transform: scale(1.2,1.2); */
     /* font-size: 20px; */
     /* transform: translateX(5px); */
     /* color: rgba(46, 171, 123, 1) !important; */
-    color: rgba(55, 46, 125, 1);
-    border: 2px solid rgba(55, 46, 125, 1);
+    /* color: rgba(55, 46, 125, 1); */
+    fill: rgba(55, 46, 125, 1);
+     
+    /* border: 2px solid rgba(55, 46, 125, 1); */
 }
 
 .list-icon{
     display: inline-block;
+    height: 40px;
+    width: 40px;
     margin-right: 5px;
 }
 
