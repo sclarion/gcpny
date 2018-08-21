@@ -176,6 +176,8 @@ Navbar Styles
 }
 
 .main-nav .dropdown-menu{    
+    left: auto;
+    right: 0px;
     box-sizing: border-box;
     border: 0px;
     /* border-top: 15px solid rgba(55, 46, 125, 0.5);
