@@ -19,6 +19,7 @@
       <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
      
 
+
       <link href="assets/css/slick.css" rel="stylesheet">
       <link href="assets/css/slick-theme.css" rel="stylesheet">
 
@@ -28,6 +29,31 @@
           <script src="assets/js/respond.min.js"></script>
       <![endif]--> 
    </head>
+
+   <style>
+
+   .hero-content .breadcrumbs li:not(:last-child)::after{
+            position: absolute;
+            content: '/';
+            display: block;
+            right: -5px;
+            top: 3px;
+            width: 8px;
+            height: 5px;
+            border-bottom: none;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .child .hero-text{
+            width: 1000px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+   </style>
+
    <body class="child">
 
         <header>
@@ -102,14 +128,13 @@
             </header>
 
     <main>
-        
-
+      
         <section class="hero-section child-hero-section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 hero-content">
                         <div class="hero-text text-center">
-                            <h2  class="display-4 text-center">Healthcare</h2>
+                            <h2  class="display-4 text-center">Fabricated Metal Products</h2>
                             <ul class="page-nav text-center d-flex justify-content-center">
                                 <li><a href="">Overview</a></li>                                
                                 <li><a href="">Information</a></li>                                
@@ -119,79 +144,172 @@
                         <ul class="breadcrumbs d-flex justify-content-start">
                             <li><a href="">Home</a></li>                                                       
                             <li><a href="">Industries</a></li>                            
-                            <li><a href="">Healthcare</a></li>
+                            <li><a href="">Food and Beverage</a></li>
+                            <li><a href="">Baked Goods</a></li>
+                            <li><a href="">Specialty Baked Goods</a></li>
                         </ul>                        
                     </div><!--end of hero-text-->
                 </div>
             </div>
         </section>
-        
 
-        <section class="feature-section feature1">
+        
+        <section class=" mini-feature-section feature-section feature1">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
-                    <!-- <div class="col-lg-12 text-center section-heading">
-                        <h2>Overview</h2>
-                    </div> -->
-                    <div class="col-lg-12 text-justify">
-                        <p>
-                            The food and beverage industry is underdoing tremendous change. Increasing ecommerce penetration
-                            and the continued strengthening of Amazon, proliferation of brand direct-to-consumer (DTC) strategies
-                            and new business models, rapidly evolving technologies, and massive restructuring of major legacy
-                            channel segments, to name a few, are creating major disruption.
-                            <br>
-                        </p>
-                    </div>            
+                    <div class="col-lg-12 text-left section-heading">
+                        <h2>Case Studies</h2>
+                    </div>                               
                 </div>                
             </div>
-        </section>     
-        
-        <section class="feature-section feature2">
+        </section>
+
+        <section class="mini-feature-section feature-section feature2">
             <div class="container text-center">
-                <div class="row">
-                    <div class="col-lg-12 text-left section-heading">
+                <div class="row">                    
+                    <div class="col-lg-12">
+                        <div class="v-tile tile row">
+                            <div class="col-md-3 img-box">                                
+                                <figure class="tile">
+                                        <div class="img">
+                                            <img src="assets/img/f7.jpg" width="100%" class="img-responsive" alt="banner"/>
+                                        </div>                            
+                                        <figcaption>Market Due Diligence</figcaption>   
+                                    </figure>                                    
+                            </div>                            
+                            <div class="col-md-9 tile-text text-left">                                
+                                <h5>Value Of Private Equity</h5> 
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis, erat eleifend 
+                                    dapibus vehicula, nulla magna finibus urna, ac vulputate enim quam quis nunc. Ut magna neque, 
+                                    finibus at lorem vel, egestas fringilla purus. Class aptent taciti sociosqu ad litora torquent 
+                                    per conubia nostra, per inceptos himenaeos. Maecenas scelerisque fringilla ipsum non efficitur. 
+                                    Phasellus pulvinar vehicula lectus, quis viverra libero iaculis non. 
+                                    <br>
+                                    <a href="">See More>></a>
+                                </p>                            
+                            </div>
+                        </div>
+                    </div>                                                                                
+                </div>
+            </div>
+        </section>
+
+        <section class="mini-feature-section feature-section feature2">
+            <div class="container text-center">
+                <div class="row">                    
+                    <div class="col-lg-12">
+                        <div class="v-tile tile row">
+                            <div class="col-md-3 img-box">                                
+                                <figure class="tile">
+                                        <div class="img">
+                                            <img src="assets/img/f7.jpg" width="100%" class="img-responsive" alt="banner"/>
+                                        </div>                            
+                                        <figcaption>Market Due Diligence</figcaption>   
+                                    </figure>                                    
+                            </div>                            
+                            <div class="col-md-9 tile-text text-left">                                
+                                <h5>Value Of Private Equity</h5> 
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis, erat eleifend 
+                                    dapibus vehicula, nulla magna finibus urna, ac vulputate enim quam quis nunc. Ut magna neque, 
+                                    finibus at lorem vel, egestas fringilla purus. Class aptent taciti sociosqu ad litora torquent 
+                                    per conubia nostra, per inceptos himenaeos. Maecenas scelerisque fringilla ipsum non efficitur. 
+                                    Phasellus pulvinar vehicula lectus, quis viverra libero iaculis non. 
+                                    <br>
+                                    <a href="">See More >></a>
+                                </p>                            
+                            </div>
+                        </div>
+                    </div>                                                                                
+                </div>
+            </div>
+        </section>
+
+        <section class="mini-feature-section feature-section feature2">
+            <div class="container text-center">
+                <div class="row">                    
+                    <div class="col-lg-12">
+                        <div class="v-tile tile row">
+                            <div class="col-md-3 img-box">                                
+                                <figure class="tile">
+                                        <div class="img">
+                                            <img src="assets/img/f7.jpg" width="100%" class="img-responsive" alt="banner"/>
+                                        </div>                            
+                                        <figcaption>Market Due Diligence</figcaption>   
+                                    </figure>                                    
+                            </div>                            
+                            <div class="col-md-9 tile-text text-left">                                
+                                <h5>Value Of Private Equity</h5> 
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis, erat eleifend 
+                                    dapibus vehicula, nulla magna finibus urna, ac vulputate enim quam quis nunc. Ut magna neque, 
+                                    finibus at lorem vel, egestas fringilla purus. Class aptent taciti sociosqu ad litora torquent 
+                                    per conubia nostra, per inceptos himenaeos. Maecenas scelerisque fringilla ipsum non efficitur. 
+                                    Phasellus pulvinar vehicula lectus, quis viverra libero iaculis non. 
+                                    <br>
+                                    <a href="">See More >></a>
+                                </p>                            
+                            </div>
+                        </div>
+                    </div>                                                                                
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section class="mini-feature-section feature-section feature2">
+                <div class="container text-center">
+                    <div class="row">     
+                        <div class="col-lg-12 end-block">
+                                <h5>See More</h5>
+                                <i class="fas fa-caret-down"></i>
+                        </div>
+                    
+                    <div class="col-lg-12 text-center section-heading" style="margin-top: 70px;">
                         <h2>Industry Areas</h2>
                     </div>
-                    <div class="col-lg-12 text-justify end-block">
-                        <p>
-                            Proin vitae mattis odio, vel sodales magna. Pellentesque et ullamcorper dolor. Donec interdum, lorem in
-                            blandit semper, libero ipsum auctor magna, eget posuere urna felis eu purus.
-                        </p>
-                    </div>                    
-                    <div class="col-lg-12 text-center case-studies-list">
+                    <div class="col-lg-12 text-center end-block case-studies-list">
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="industry_healthcare_pharmaceuticals.html">                                                                           
-                                    <h5 class="d-flex align-items-center">
-                                        <span class="list-icon mr-2">
-                                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 328"><title>subicons</title><path class="cls-1" d="M201,364c-90.43,0-164-73.57-164-164S110.57,36,201,36s164,73.57,164,164S291.43,364,201,364Zm0-313C118.84,51,52,117.84,52,200s66.84,149,149,149,149-66.84,149-149S283.16,51,201,51Z" transform="translate(-37 -36)"></path><g id="a"><path d="M261,230.25c-2.06-.16-5.3-.32-9.74-.48l-122-.36a8.49,8.49,0,0,0-3.45.24c-1.74.4-2.69,1.19-2.85,2.38l.36,12.47q.23,12.6,0,14.14.23,0,17.82,11.88.7.12,63.2,0l70.44-.12q5.12.24,5.59-2.73a24,24,0,0,0,.59-4.16v-19a2.36,2.36,0,0,0-1.07-1.9l-17.82-11.88a2.2,2.2,0,0,0-1.07-.47m-2.37,4.63,10.21,6.77-121.76-.36a8.32,8.32,0,0,0-3.45.24c-.32.08-.59.16-.83.24a10.13,10.13,0,0,0-1.43-1,63.3,63.3,0,0,0-5.82-3.8c-1.11-.87-2.1-1.63-3-2.26l107.16-.36q7.13.24,10.93,0a44.83,44.83,0,0,1,8,.48m-129.85,19,.12-16.16c.87.47,2.49,1.39,4.87,2.73q.6.36,4.87,3.33a25.53,25.53,0,0,0,2.26,1.42l.24,11.17c.08,2.61.11,4.87.11,6.77q-11.76-6.18-12.47-9.26m132.22-72c-2.06-.15-5.3-.31-9.74-.47l-122-.36a8.32,8.32,0,0,0-3.45.24c-1.74.4-2.69,1.19-2.85,2.38l.36,12.47q.23,12.6,0,14.14.35.12,17.82,11.88.7.12,63.2,0l70.44-.12q5.12.24,5.59-2.73a24,24,0,0,0,.59-4.16v-19a2.36,2.36,0,0,0-1.07-1.9l-17.82-11.88a2.25,2.25,0,0,0-1.07-.48m-2.37,4.64,10.09,6.77-121.64-.36a6.8,6.8,0,0,0-2.86.12,92.54,92.54,0,0,0-8.07-5.23c-.95-.55-1.79-1-2.5-1.42l106.09-.36q7.13.24,10.93,0a44.83,44.83,0,0,1,8,.48m-125.1,5.11a44,44,0,0,0,7.25,4.15l.36,12.24c.08,3.17.11,5.82.11,8q-4.5-2.37-12.47-10.45l.12-17.11q1.78,1.31,4.63,3.21M261,134.38c-2.06-.16-5.3-.32-9.74-.48l-122-.36a8.67,8.67,0,0,0-3.45.24c-1.74.4-2.69,1.19-2.85,2.38l.36,12.47q.23,12.6,0,14.14.35.12,17.82,11.88.7.12,63.2,0l70.44-.12q5.12.24,5.59-2.73a24,24,0,0,0,.59-4.16v-19a2.57,2.57,0,0,0-.83-1.78l-18.06-12a2.2,2.2,0,0,0-1.07-.47m-10.33,4.15a44.83,44.83,0,0,1,8,.48l10.09,6.77-121.64-.36a27.33,27.33,0,0,0-5.11,0c0-.15-.16-.31-.48-.47q-5.46-3.33-5.94-3.8a31.24,31.24,0,0,0-2.73-2.26l106.92-.36q7.13.24,10.93,0M140.94,149.46l.24,11c.08,2.77.11,5.15.11,7.13A107.21,107.21,0,0,1,128.82,158l.12-17.11Q137,147.09,140.94,149.46Z" transform="translate(-37 -36)"></path></g></svg>                                            
-                                        </span> 
-                                        Pharmaceuticals
-                                    </h5>                                    
+                            <div class="col-md-4 end-block">
+                                <a href="industry_page.html">
+                                    <h5>Baked Goods</h5>
+                                    <i class="fas fa-caret-down"></i>
                                 </a>
                             </div>
-                            <div class="col-md-6">
-                                <a href="industry_healthcare_medical-device.html">                                                                           
-                                    <h5 class="d-flex align-items-center">
-                                        <span class="list-icon mr-2">
-                                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 328"><title>subicons</title><path class="cls-1" d="M201,364c-90.43,0-164-73.57-164-164S110.57,36,201,36s164,73.57,164,164S291.43,364,201,364Zm0-313C118.84,51,52,117.84,52,200s66.84,149,149,149,149-66.84,149-149S283.16,51,201,51Z" transform="translate(-37 -36)"></path><g id="a"><path d="M261,230.25c-2.06-.16-5.3-.32-9.74-.48l-122-.36a8.49,8.49,0,0,0-3.45.24c-1.74.4-2.69,1.19-2.85,2.38l.36,12.47q.23,12.6,0,14.14.23,0,17.82,11.88.7.12,63.2,0l70.44-.12q5.12.24,5.59-2.73a24,24,0,0,0,.59-4.16v-19a2.36,2.36,0,0,0-1.07-1.9l-17.82-11.88a2.2,2.2,0,0,0-1.07-.47m-2.37,4.63,10.21,6.77-121.76-.36a8.32,8.32,0,0,0-3.45.24c-.32.08-.59.16-.83.24a10.13,10.13,0,0,0-1.43-1,63.3,63.3,0,0,0-5.82-3.8c-1.11-.87-2.1-1.63-3-2.26l107.16-.36q7.13.24,10.93,0a44.83,44.83,0,0,1,8,.48m-129.85,19,.12-16.16c.87.47,2.49,1.39,4.87,2.73q.6.36,4.87,3.33a25.53,25.53,0,0,0,2.26,1.42l.24,11.17c.08,2.61.11,4.87.11,6.77q-11.76-6.18-12.47-9.26m132.22-72c-2.06-.15-5.3-.31-9.74-.47l-122-.36a8.32,8.32,0,0,0-3.45.24c-1.74.4-2.69,1.19-2.85,2.38l.36,12.47q.23,12.6,0,14.14.35.12,17.82,11.88.7.12,63.2,0l70.44-.12q5.12.24,5.59-2.73a24,24,0,0,0,.59-4.16v-19a2.36,2.36,0,0,0-1.07-1.9l-17.82-11.88a2.25,2.25,0,0,0-1.07-.48m-2.37,4.64,10.09,6.77-121.64-.36a6.8,6.8,0,0,0-2.86.12,92.54,92.54,0,0,0-8.07-5.23c-.95-.55-1.79-1-2.5-1.42l106.09-.36q7.13.24,10.93,0a44.83,44.83,0,0,1,8,.48m-125.1,5.11a44,44,0,0,0,7.25,4.15l.36,12.24c.08,3.17.11,5.82.11,8q-4.5-2.37-12.47-10.45l.12-17.11q1.78,1.31,4.63,3.21M261,134.38c-2.06-.16-5.3-.32-9.74-.48l-122-.36a8.67,8.67,0,0,0-3.45.24c-1.74.4-2.69,1.19-2.85,2.38l.36,12.47q.23,12.6,0,14.14.35.12,17.82,11.88.7.12,63.2,0l70.44-.12q5.12.24,5.59-2.73a24,24,0,0,0,.59-4.16v-19a2.57,2.57,0,0,0-.83-1.78l-18.06-12a2.2,2.2,0,0,0-1.07-.47m-10.33,4.15a44.83,44.83,0,0,1,8,.48l10.09,6.77-121.64-.36a27.33,27.33,0,0,0-5.11,0c0-.15-.16-.31-.48-.47q-5.46-3.33-5.94-3.8a31.24,31.24,0,0,0-2.73-2.26l106.92-.36q7.13.24,10.93,0M140.94,149.46l.24,11c.08,2.77.11,5.15.11,7.13A107.21,107.21,0,0,1,128.82,158l.12-17.11Q137,147.09,140.94,149.46Z" transform="translate(-37 -36)"></path></g></svg>                                            
-                                        </span> 
-                                        Medical Devices &amp; Components
-                                    </h5>                                    
+                            <div class="col-md-4 end-block">
+                                <a href="industry_page.html">
+                                    <h5>Meat Products</h5>
+                                    <i class="fas fa-caret-down"></i>
                                 </a>
                             </div>
-                            <div class="col-md-6">
-                                <a href="industry_healthcare_services.html">                                                                           
-                                    <h5 class="d-flex align-items-center">
-                                        <span class="list-icon mr-2">
-                                            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 328 328"><title>subicons</title><path class="cls-1" d="M201,364c-90.43,0-164-73.57-164-164S110.57,36,201,36s164,73.57,164,164S291.43,364,201,364Zm0-313C118.84,51,52,117.84,52,200s66.84,149,149,149,149-66.84,149-149S283.16,51,201,51Z" transform="translate(-37 -36)"></path><g id="a"><path d="M261,230.25c-2.06-.16-5.3-.32-9.74-.48l-122-.36a8.49,8.49,0,0,0-3.45.24c-1.74.4-2.69,1.19-2.85,2.38l.36,12.47q.23,12.6,0,14.14.23,0,17.82,11.88.7.12,63.2,0l70.44-.12q5.12.24,5.59-2.73a24,24,0,0,0,.59-4.16v-19a2.36,2.36,0,0,0-1.07-1.9l-17.82-11.88a2.2,2.2,0,0,0-1.07-.47m-2.37,4.63,10.21,6.77-121.76-.36a8.32,8.32,0,0,0-3.45.24c-.32.08-.59.16-.83.24a10.13,10.13,0,0,0-1.43-1,63.3,63.3,0,0,0-5.82-3.8c-1.11-.87-2.1-1.63-3-2.26l107.16-.36q7.13.24,10.93,0a44.83,44.83,0,0,1,8,.48m-129.85,19,.12-16.16c.87.47,2.49,1.39,4.87,2.73q.6.36,4.87,3.33a25.53,25.53,0,0,0,2.26,1.42l.24,11.17c.08,2.61.11,4.87.11,6.77q-11.76-6.18-12.47-9.26m132.22-72c-2.06-.15-5.3-.31-9.74-.47l-122-.36a8.32,8.32,0,0,0-3.45.24c-1.74.4-2.69,1.19-2.85,2.38l.36,12.47q.23,12.6,0,14.14.35.12,17.82,11.88.7.12,63.2,0l70.44-.12q5.12.24,5.59-2.73a24,24,0,0,0,.59-4.16v-19a2.36,2.36,0,0,0-1.07-1.9l-17.82-11.88a2.25,2.25,0,0,0-1.07-.48m-2.37,4.64,10.09,6.77-121.64-.36a6.8,6.8,0,0,0-2.86.12,92.54,92.54,0,0,0-8.07-5.23c-.95-.55-1.79-1-2.5-1.42l106.09-.36q7.13.24,10.93,0a44.83,44.83,0,0,1,8,.48m-125.1,5.11a44,44,0,0,0,7.25,4.15l.36,12.24c.08,3.17.11,5.82.11,8q-4.5-2.37-12.47-10.45l.12-17.11q1.78,1.31,4.63,3.21M261,134.38c-2.06-.16-5.3-.32-9.74-.48l-122-.36a8.67,8.67,0,0,0-3.45.24c-1.74.4-2.69,1.19-2.85,2.38l.36,12.47q.23,12.6,0,14.14.35.12,17.82,11.88.7.12,63.2,0l70.44-.12q5.12.24,5.59-2.73a24,24,0,0,0,.59-4.16v-19a2.57,2.57,0,0,0-.83-1.78l-18.06-12a2.2,2.2,0,0,0-1.07-.47m-10.33,4.15a44.83,44.83,0,0,1,8,.48l10.09,6.77-121.64-.36a27.33,27.33,0,0,0-5.11,0c0-.15-.16-.31-.48-.47q-5.46-3.33-5.94-3.8a31.24,31.24,0,0,0-2.73-2.26l106.92-.36q7.13.24,10.93,0M140.94,149.46l.24,11c.08,2.77.11,5.15.11,7.13A107.21,107.21,0,0,1,128.82,158l.12-17.11Q137,147.09,140.94,149.46Z" transform="translate(-37 -36)"></path></g></svg>                                            
-                                        </span> 
-                                        Healthcare Services
-                                    </h5>                                    
+                            <div class="col-md-4 end-block">
+                                <a href="industry_page.html">
+                                    <h5>Italian Speciality Products</h5>
+                                    <i class="fas fa-caret-down"></i>
                                 </a>
-                            </div>                                                                            
+                            </div>
+                            <div class="col-md-4 end-block">
+                                <a href="industry_page.html">
+                                    <h5>Pet Foods</h5>
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-4 end-block">
+                                <a href="industry_page.html">
+                                    <h5>Fresh Soups</h5>
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-4 end-block">
+                                <a href="industry_page.html">
+                                    <h5>Frozen Snacks</h5>
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                            </div>                            
                         </div>
-                    </div>                    
+                    </div>                                                          
                 </div>
             </div>
         </section>
@@ -200,7 +318,7 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-12 text-center section-heading">
-                        <h2>Capabilities</h2>
+                        <h2>Relevant Capabilities</h2>
                     </div>
                     <div class="col-lg-12 end-block d-flex flex-wrap cap-ind justify-content-center">
                         <div class="icon-box text-center">
@@ -234,7 +352,9 @@
                             <a href=""></a> 
                             <div class="icon">
                                 <!-- <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492 492"><title>svg_icons</title><path d="M300.27,412.19l-38.41,38.42V321H238.14V450.6l-38.41-38.41v33.53L250,496l50.26-50.26Z" transform="translate(-4 -4)"/><path d="M300.27,87.81,261.86,49.39V179H238.14V49.4L199.73,87.81V54.28L250,4l50.26,50.26Z" transform="translate(-4 -4)"/><path d="M87.81,300.27,49.39,261.86H179V238.14H49.4l38.41-38.41H54.28L4,250l50.26,50.27Z" transform="translate(-4 -4)"/><path d="M412.19,300.27l38.42-38.41H321V238.14H450.6l-38.41-38.41h33.53L496,250l-50.26,50.27Z" transform="translate(-4 -4)"/><path d="M400.23,329.14v54.32l-91.66-91.65-16.77,16.77,91.65,91.65H329.14l23.71,23.71H424V352.86Z" transform="translate(-4 -4)"/><path d="M170.86,99.77H116.54l91.65,91.66-16.77,16.77L99.77,116.54v54.32L76.06,147.15V76.05h71.08Z" transform="translate(-4 -4)"/><path d="M170.86,400.23H116.54l91.65-91.66-16.77-16.77L99.77,383.46V329.14L76.06,352.85V424h71.08Z" transform="translate(-4 -4)"/><path d="M400.23,170.86V116.54l-91.66,91.65-16.77-16.77,91.65-91.65H329.14l23.71-23.71H424v71.08Z" transform="translate(-4 -4)"/></svg> -->
-                                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.03 87"><title>Sales and Marketing Effectiveness Replacement9</title><path d="M89.39,31.33h-.46A2.63,2.63,0,0,0,86.3,34v.91l-2.36,1V6H14V76.86L29.81,93H83.94V72.9l2.36.84V75.2a2.64,2.64,0,0,0,2.63,2.64h.46A2.64,2.64,0,0,0,92,75.2V34A2.64,2.64,0,0,0,89.39,31.33ZM29.61,89.23,18.22,77.6h11.4V89.23ZM81.44,90.5H32.11V75.1H16.5V8.5H81.44V37L63.68,44.59H45.49a2.63,2.63,0,0,0-2.63,2.55h-2a2.63,2.63,0,0,0-2.63,2.63v9.81a2.64,2.64,0,0,0,2.63,2.64h2V63a2.64,2.64,0,0,0,2.64,2.64h3l5.89,17h9.34a2.49,2.49,0,0,0,0-5h-.44l-.73-1.92h3.65V67.34H59.29l-.64-1.66h5.07L81.44,72V90.5ZM65.18,63.55V46.66l1.76-.76V64.18Zm-4.94,6.29h3.43V73.3h-2.1Zm1.28,10.35H56.13l-5-14.51H56Zm-16-17a.14.14,0,0,1-.14-.14V47.22a.13.13,0,0,1,.14-.13H62.68V63.18Zm-2.64-3.46h-2a.13.13,0,0,1-.13-.14V49.77a.13.13,0,0,1,.13-.13h2Zm26.59,5.35V44.83L86.3,37.59V71.08ZM89.53,75.2a.14.14,0,0,1-.14.14h-.46a.14.14,0,0,1-.13-.14V34a.13.13,0,0,1,.13-.13h.46a.13.13,0,0,1,.14.13Z" transform="translate(-14 -6)"/><path d="M78.58,11.71H19.36V26.42H78.58Zm-2.5,12.21H21.86V14.21H76.08Z" transform="translate(-14 -6)"/><rect x="6.61" y="23.92" width="56.73" height="2.5"/><rect x="6.61" y="29.92" width="47.58" height="2.5"/><rect x="6.61" y="35.92" width="19.54" height="2.5"/><rect x="6.61" y="41.92" width="13.56" height="2.5"/><rect x="6.61" y="47.92" width="13.56" height="2.5"/><rect x="6.61" y="53.92" width="13.56" height="2.5"/><rect x="6.61" y="59.92" width="18.82" height="2.5"/><rect x="20.17" y="65.92" width="12.13" height="2.5"/><rect x="20.17" y="71.92" width="15.37" height="2.5"/><rect x="20.17" y="77.92" width="43.17" height="2.5"/><rect x="54.83" y="65.92" width="8.5" height="2.5"/><rect x="54.83" y="71.92" width="8.5" height="2.5"/></svg>
+                                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.98 36"><title>noun_Megaphone_16105411</title><path d="M57.23,46a1,1,0,0,1-.88-1.47,30.9,30.9,0,0,0,0-29.06,1,1,0,0,1,1.76-.94,32.86,32.86,0,0,1,0,30.94A1,1,0,0,1,57.23,46Z" transform="translate(-2 -14)"/><path d="M52.11,43.16a1,1,0,0,1-.87-1.48C56,33,56,27.05,51.24,18.32a1,1,0,1,1,1.75-1c5.08,9.33,5.08,16,0,25.28A1,1,0,0,1,52.11,43.16Z" transform="translate(-2 -14)"/><path d="M47,40.32a1,1,0,0,1-.48-.12,1,1,0,0,1-.4-1.36c3.64-6.69,3.64-11,0-17.68a1,1,0,0,1,1.76-1c3.93,7.24,3.93,12.36,0,19.6A1,1,0,0,1,47,40.32Z" transform="translate(-2 -14)"/><path d="M41.58,15.19a1,1,0,0,0-.9-.14l-22,7.5a.93.93,0,0,0-.54.45H5a3,3,0,0,0-3,3v8a3,3,0,0,0,3,3H8.14l1.7,11A1,1,0,0,0,9,49a1,1,0,0,0,1,1h8a1,1,0,0,0,0-2h-.14L16.17,37h2a.93.93,0,0,0,.54.45l22,7.5A1.13,1.13,0,0,0,41,45a.94.94,0,0,0,.58-.19A1,1,0,0,0,42,44V16A1,1,0,0,0,41.58,15.19ZM6,35H5a1,1,0,0,1-1-1V26a1,1,0,0,1,1-1H6Zm5.86,13L10.17,37h4l1.69,11ZM18,35H8V25H18Zm22,7.6-2-.68V28H36V41.24L20,35.78V24.22l16-5.46V22h2V18.08l2-.68Z" transform="translate(-2 -14)"/><rect x="34" y="10" width="2" height="2"/><rect x="8" y="15" width="2" height="2"/><rect x="12" y="15" width="2" height="2"/></svg>
+                                <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.98 36"><title>noun_Megaphone_1610541</title><path d="M41,45a1.13,1.13,0,0,1-.32,0l-22-7.5a1,1,0,0,1-.68-1v-13a1,1,0,0,1,.68-.95l22-7.5a1,1,0,0,1,.9.14A1,1,0,0,1,42,16V44a1,1,0,0,1-.42.81A.94.94,0,0,1,41,45ZM20,35.78,40,42.6V17.4L20,24.22Z" transform="translate(-2 -14)"/><path d="M57.23,46a1,1,0,0,1-.88-1.47,30.9,30.9,0,0,0,0-29.06,1,1,0,0,1,1.76-.94,32.86,32.86,0,0,1,0,30.94A1,1,0,0,1,57.23,46Z" transform="translate(-2 -14)"/><path d="M52.11,43.16a1,1,0,0,1-.87-1.48C56,33,56,27.05,51.24,18.32a1,1,0,1,1,1.75-1c5.08,9.33,5.08,16,0,25.28A1,1,0,0,1,52.11,43.16Z" transform="translate(-2 -14)"/><path d="M47,40.32a1,1,0,0,1-.48-.12,1,1,0,0,1-.4-1.36c3.64-6.69,3.64-11,0-17.68a1,1,0,0,1,1.76-1c3.93,7.24,3.93,12.36,0,19.6A1,1,0,0,1,47,40.32Z" transform="translate(-2 -14)"/><path d="M19,37H5a3,3,0,0,1-3-3V26a3,3,0,0,1,3-3H19a1,1,0,0,1,1,1V36A1,1,0,0,1,19,37ZM5,25a1,1,0,0,0-1,1v8a1,1,0,0,0,1,1H18V25Z" transform="translate(-2 -14)"/><path d="M17,50H11a1,1,0,0,1-1-.85l-2-13A1,1,0,0,1,9,35h6a1,1,0,0,1,1,.85l2,13A1,1,0,0,1,17,50Zm-5.14-2h4L14.14,37h-4Z" transform="translate(-2 -14)"/><path d="M18,50H10a1,1,0,0,1,0-2h8a1,1,0,0,1,0,2Z" transform="translate(-2 -14)"/><rect x="34" y="14" width="2" height="15"/><rect x="34" y="10" width="2" height="2"/><rect x="34" y="3" width="2" height="5"/><path d="M7,37a1,1,0,0,1-1-1V24a1,1,0,0,1,2,0V36A1,1,0,0,1,7,37Z" transform="translate(-2 -14)"/><rect x="8" y="15" width="2" height="2"/><rect x="12" y="15" width="2" height="2"/></svg> -->
+                                <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.03 87"><title>Sales and Marketing Effectiveness Replacement9</title><path d="M89.39,31.33h-.46A2.63,2.63,0,0,0,86.3,34v.91l-2.36,1V6H14V76.86L29.81,93H83.94V72.9l2.36.84V75.2a2.64,2.64,0,0,0,2.63,2.64h.46A2.64,2.64,0,0,0,92,75.2V34A2.64,2.64,0,0,0,89.39,31.33ZM29.61,89.23,18.22,77.6h11.4V89.23ZM81.44,90.5H32.11V75.1H16.5V8.5H81.44V37L63.68,44.59H45.49a2.63,2.63,0,0,0-2.63,2.55h-2a2.63,2.63,0,0,0-2.63,2.63v9.81a2.64,2.64,0,0,0,2.63,2.64h2V63a2.64,2.64,0,0,0,2.64,2.64h3l5.89,17h9.34a2.49,2.49,0,0,0,0-5h-.44l-.73-1.92h3.65V67.34H59.29l-.64-1.66h5.07L81.44,72V90.5ZM65.18,63.55V46.66l1.76-.76V64.18Zm-4.94,6.29h3.43V73.3h-2.1Zm1.28,10.35H56.13l-5-14.51H56Zm-16-17a.14.14,0,0,1-.14-.14V47.22a.13.13,0,0,1,.14-.13H62.68V63.18Zm-2.64-3.46h-2a.13.13,0,0,1-.13-.14V49.77a.13.13,0,0,1,.13-.13h2Zm26.59,5.35V44.83L86.3,37.59V71.08ZM89.53,75.2a.14.14,0,0,1-.14.14h-.46a.14.14,0,0,1-.13-.14V34a.13.13,0,0,1,.13-.13h.46a.13.13,0,0,1,.14.13Z" transform="translate(-14 -6)"/><path d="M78.58,11.71H19.36V26.42H78.58Zm-2.5,12.21H21.86V14.21H76.08Z" transform="translate(-14 -6)"/><rect x="6.61" y="23.92" width="56.73" height="2.5"/><rect x="6.61" y="29.92" width="47.58" height="2.5"/><rect x="6.61" y="35.92" width="19.54" height="2.5"/><rect x="6.61" y="41.92" width="13.56" height="2.5"/><rect x="6.61" y="47.92" width="13.56" height="2.5"/><rect x="6.61" y="53.92" width="13.56" height="2.5"/><rect x="6.61" y="59.92" width="18.82" height="2.5"/><rect x="20.17" y="65.92" width="12.13" height="2.5"/><rect x="20.17" y="71.92" width="15.37" height="2.5"/><rect x="20.17" y="77.92" width="43.17" height="2.5"/><rect x="54.83" y="65.92" width="8.5" height="2.5"/><rect x="54.83" y="71.92" width="8.5" height="2.5"/></svg> -->
                             </div>
                             <div class="icon-text">
                                 <p>Sales &amp; Marketing Effectiveness</p>
@@ -264,7 +384,10 @@
                 </div>
             </div>
         </section>
+        
 
+
+        
         <section class="feature-section case-studies-section">
             <div class="container text-center">
                 <div class="row">
@@ -345,19 +468,10 @@
                 </div>                
             </div>
         </section>
+        
 
         
 
-        <!-- <section class="feature-section feature3">
-            <div class="container">
-                <h2>Hello world 3</h2>
-                <div class="large-window">
-                    <div class="window-tint">
-                        <div class="promo-text">Fall Suits<strong><span>from</span> $99</strong><a href="" class="window-cta">Shop Now</a></div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
     </main><!--end of main section-->
 
@@ -474,8 +588,6 @@
         </div>
     </footer>
 
-    
-    
       
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
