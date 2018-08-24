@@ -368,17 +368,19 @@ Hero Section
     height: 100%;    
 }
 
-.hero-content h2{
-    /* padding-top: 70px; */
+.hero-content h2{    
     text-transform: uppercase;
-    font-weight: 600;
-    /* font-family: 'Playfair Display', serif; */
+    font-weight: 600;    
     font-family: 'Montserrat', sans-serif; 
-    font-size: 60px;
+    font-size: 55px;
     letter-spacing: 2px;
     /* -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5); */
-    text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content h2 span{
+    color: rgba(33,67,113,1);
 }
 
 .child .hero-content h2{
@@ -427,9 +429,10 @@ Hero Section
 
 .hero-text{
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    right: 5%;
+    top: 30%;
+    width: 600px;
+    transform: translate(0%, -30%);
 }
 
 .child .hero-content .hyphen{
