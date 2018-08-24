@@ -104,6 +104,23 @@ ol ul{
     color: rgba(55, 46, 125, 1);
 }
 
+.grey-bg{
+    background: rgba(245, 247, 251, 1);
+}
+
+.container-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container-half{
+    max-width: 570px;
+}
+
+.block{
+    display: block;
+}
+
 .end-block{
     margin-bottom: 60px;
 }
@@ -597,10 +614,10 @@ Intro Section
 ========================================================================== */
 
 .intro-section{
-    padding: 120px 0px 10px 0px;
+    padding: 120px 0px 0px 0px;
 }
 
-.intro-section p{
+.intro-section p, .mini-feature-section p{
     font-weight: 500;
 }
 
@@ -652,7 +669,7 @@ Feature Section
     color: white;
 }
 
-.feature-section h2{
+.feature-section h2, .mini-feature-section h2, .intro-section h2{
     font-weight: 600;
     color: rgba(33,37,41, 1);
     font-size: 30px;
@@ -661,8 +678,13 @@ Feature Section
     text-transform: uppercase;
 }
 
-.feature-section a{
+a{
     color: grey;
+}
+
+a:hover{
+    color: rgb(182, 182, 182);
+    text-decoration: none;
 }
 
 .feature-section:nth-child(odd){
@@ -914,7 +936,7 @@ Career Banner Section
 ========================================================================== */
 
 .career-banner-section{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 80% ),url(../img/career-bg.jpg) no-repeat center center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/career-bg.png) no-repeat center center;
     background-size: cover;
     color: white;
     padding: 150px 0px;
@@ -949,8 +971,8 @@ Quick Contact Section
 
 .quick-contact-section{
     /* background: rgba(250, 250, 250, 1); */
-    background: rgba(55, 46, 125, 1);
-    padding: 20px 0px 18px;
+    background: rgba(18, 20, 41, 1);
+    padding: 40px 0px 45px;
 }
 
 .quick-contact-section .form-group, .quick-contact-section h4{
@@ -958,10 +980,14 @@ Quick Contact Section
 }
 
 .quick-contact-section  h4{
-    font-size: 15px;
+    font-size: 20px;
     color: #fff;
 }
 
+.quick-contact-section .btn{
+    background: rgba(36,40,82,1);
+    border: 1px solid grey;
+}
 
 /* ==========================================================================
 Capabilities Section
@@ -984,6 +1010,18 @@ Capabilities Section
 
 .child .capability-section .container{
     max-width: 1100px;
+}
+
+.more-icon{
+    position: relative;
+}
+
+.more-icon i{
+    position: absolute;
+    font-size: 30px;
+    top: -6px;
+    right: -36px;
+    height: 35px;   
 }
 
 /* ==========================================================================
@@ -1053,9 +1091,8 @@ Landing Page/ Listing Page
     margin: 10px 40px 30px;    
 }
 
-.child .cap-ind .icon-box{
-    margin: 10px 10px 30px;    
-}
+
+
 
 .icon-box>a{
     position: absolute;
@@ -1068,9 +1105,10 @@ Landing Page/ Listing Page
 .icon-box .icon svg{
     height: 120px;  
     width: 120px;
-    fill: rgba(33,67,113,1);
-    /* fill: rgba(55, 46, 125, 1); */
+    fill: rgba(33,67,113,1);    
 }
+
+
 
 .icon-box:hover .icon svg{
     fill: rgba(55, 46, 125, 1);
@@ -1100,6 +1138,32 @@ Landing Page/ Listing Page
     height: 120px;
     background: rgba(255, 255, 255, 1);
 }
+
+/* .child .cap-ind .icon-box{
+    margin: 10px 10px 30px;    
+} */
+
+/* .child .icon{   
+    width: 90px;
+    height: 90px;    
+}
+
+.child .icon-text p {
+    margin-top: 1rem;
+    width: 150px;  
+    font-size: 14px;
+    font-weight: 500;  
+}
+
+.child .icon-box .icon svg{
+    height: 90px;  
+    width: 90px;      
+}
+
+.child .icon-box .icon svg{
+    height: 90px;  
+    width: 90px;      
+} */
 
 .icon svg{
     fill: white;
@@ -1230,12 +1294,12 @@ Feature Case Section
 
 .template-3 .list-icon{
     height: 50px;
-    width: 50px;
+    width: 90px;
 }
 
 .template-3 .list-icon svg{
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
 }
 
 .template-3 .list-icon-wrap{
@@ -1244,7 +1308,12 @@ Feature Case Section
 }
 
 .template-3 h5{
+    font-size: 20px;
     margin: 0px;
+}
+
+.template-3 h5 span{
+    font-size: 15px;
 }
 
 
@@ -1787,3 +1856,39 @@ Industry Feature Section
     
     
         }
+
+        
+    /* ==========================================================================
+    CSS for Why Gotham by Lav 24-08-2018 Starts
+    ========================================================================== */
+.gotham-feature-section h3{ font-size: 18px; font-weight: 800; margin: 0 0 18px;}
+.gotham-feature-section.feature-section { padding: 100px 0px 60px;}
+.gotham-feature-section p{ font-size: 15px; line-height: 22px; margin: 0 0 0;}
+.gotham-info-box{ margin-bottom: 30px;}
+.gotham-info-box.even{ background:#f5f7fb; padding: 30px 0;}
+.gotham-info-content h3{ font-size: 18px; font-weight: 800; margin: 0 0 18px;}
+.gotham-info-content p{ font-size: 15px; line-height: 22px; margin: 0 0 18px;}
+.gotham-info-content p:last-child{ margin-bottom: 0;}
+.gotham-info-box .gotham-info-image-box img{ width: 100%;}
+
+@media screen and (max-width: 1024px) {
+	.gotham-feature-section h3{ font-size: 16px; margin: 0 0 15px;}
+	.gotham-feature-section.feature-section { padding:60px 0px 30px;}
+	.gotham-feature-section p{ font-size: 14px; line-height:18px;}
+	.gotham-info-content h3{ font-size: 16px; margin: 0 0 15px;}
+	.gotham-info-content p{ font-size: 14px; line-height: 18px; margin: 0 0 15px;}
+}
+@media screen and (max-width:767px) {
+	.gotham-feature-section h3{ font-size:15px;}
+	.gotham-feature-section.feature-section { padding:40px 0px 25px;}
+	.gotham-feature-section p{ font-size: 13px;}
+	.gotham-info-box{ margin-bottom: 25px;}
+	.gotham-info-content h3{ font-size: 15px;}
+	.gotham-info-content p{ font-size: 13px;}
+	.gotham-info-image-box{ margin-top: 25px; text-align: center;}
+	.gotham-info-box.even .gotham-info-image-box{ margin-bottom: 25px;}
+}
+
+/* ==========================================================================
+    CSS for Why Gotham by Lav 24-08-2018 Ends
+    ========================================================================== */
