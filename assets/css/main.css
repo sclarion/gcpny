@@ -433,7 +433,7 @@ Hero Section
 
 .hero-text{
     position: absolute;
-    right: 5%;
+    left: 5%;
     top: 30%;
     width: 600px;
     transform: translate(0%, -30%);
