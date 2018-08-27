@@ -59,6 +59,10 @@ ol ul{
 }
 
 .form-control{
+    border-radius: 0px;    
+}
+
+.quick-contact-section .form-control{
     border-radius: 0px;
     border: 0px;
 }
@@ -356,7 +360,7 @@ Hero Section
 
 
 .hero-section{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 80% ),url(../img/hero-bg.jpg) no-repeat center center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 80% ),url(../img/home-bg.jpg) no-repeat center center;
     background-size: cover; 
     height: 99vh;    
     color: white;    
