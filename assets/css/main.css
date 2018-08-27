@@ -108,10 +108,10 @@ ol ul{
     background: rgba(245, 247, 251, 1);
 }
 
-.container-width{
+/* .container-width{
     max-width: 1140px;
     margin: 0 auto;
-}
+} */
 
 .container-half{
     max-width: 570px;
@@ -376,7 +376,7 @@ Hero Section
     letter-spacing: 2px;
     /* -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5); */
-    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+    /* text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5); */
 }
 
 .hero-content h2 span{
@@ -384,7 +384,7 @@ Hero Section
 }
 
 .child .hero-content h2{
-    text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2);
+    /* text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2); */
 }
 
 .child .hero-section .hero-content h2{
@@ -548,7 +548,7 @@ Hero Section
 }
 
 .child .hero-text{
-    width: 1000px;
+    min-width: 1140px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -617,7 +617,8 @@ Intro Section
 ========================================================================== */
 
 .intro-section{
-    padding: 120px 0px 0px 0px;
+    /* padding: 120px 0px 0px 0px; */
+    padding: 50px 0px 0px 0px;
 }
 
 .intro-section p, .mini-feature-section p{
@@ -652,12 +653,14 @@ Intro Section
 Feature Section
 ========================================================================== */
 
-.feature-section p{
+.feature-section p, .feature-section ul li, .feature-section ol li{
     font-weight: 500;
 }
 
+
+
 .feature-section{
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .home .feature-section{
@@ -690,13 +693,13 @@ a:hover{
     text-decoration: none;
 }
 
-.feature-section:nth-child(odd){
+/* .feature-section:nth-child(odd){
     background: rgba(245, 247, 251, 1);
-}
+} */
 
 figure.tile{
     position: relative;
-    margin: 20px 20px 20px 20px;
+    margin: 0px 0px 20px 0px;
 }
 
 .tile > .img::before {
@@ -746,9 +749,9 @@ figure.tile> figcaption{
 }
 
 .tile h5{
-    display: none;
     padding: 10px 10px;
-    font-size: 16px;
+    font-size: 19px;
+    font-weight: 700;
 }
 
 .tile-text p{
@@ -757,7 +760,7 @@ figure.tile> figcaption{
 }
 
 .v-tile .tile-text{
-    padding: 20px;
+    padding: 0px 20px;
 }
 
 .v-tile .tile-text p, .v-tile .tile-text h4, .v-tile .tile-text h5{
@@ -766,10 +769,19 @@ figure.tile> figcaption{
 
 .v-tile .img-box{
     padding: 0px;
+    padding-left: 20px; 
 }
 
 .mini-feature-section{
-    padding: 60px 0px 10px 0px;
+    padding: 50px 0px 10px 0px;
+}
+
+.proactive .col-md-2 {
+    padding: 0 5px;
+}
+
+.proactive figure.tile> figcaption{
+    font-size: 16px;
 }
 
 /* ==========================================================================
@@ -975,7 +987,7 @@ Quick Contact Section
 .quick-contact-section{
     /* background: rgba(250, 250, 250, 1); */
     background: rgba(18, 20, 41, 1);
-    padding: 40px 0px 45px;
+    padding: 30px 0px 30px;
 }
 
 .quick-contact-section .form-group, .quick-contact-section h4{
@@ -983,7 +995,7 @@ Quick Contact Section
 }
 
 .quick-contact-section  h4{
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
 }
 
@@ -1185,7 +1197,7 @@ Feature Case Section
 ========================================================================== */
 
 .case-studies-section{
-    background: rgb(255, 255, 255) !important;
+    /* background: rgb(255, 255, 255) !important; */
     /* background: rgba(38,38,38,1) !important; */
     color: #fff;
 }
@@ -1202,7 +1214,7 @@ Feature Case Section
 }
 
 .fig-text {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 0px;
     text-align: left;
 }
 
@@ -1832,27 +1844,16 @@ Industry Feature Section
 
 
 
+    
+    
+
     @media screen and (min-width: 1600px) {
         /* ==========================================================================
         Footer Section
         ========================================================================== */
     
-            .footer-about-us{
-                -webkit-box-flex: 0;
-                -ms-flex: 0 0 40%;
-                flex: 0 0 40%;
-                max-width: 40%;
-            }
-    
-            .footer-about-us p{
-                padding-right: 20px;
-            }
-    
-            .footer-nav{
-                -webkit-box-flex: 0;
-                -ms-flex: 0 0 60%;
-                flex: 0 0 60%;
-                max-width: 60%;
+            .container-half{
+                max-width: 580px;
             }
     
     
@@ -1860,34 +1861,46 @@ Industry Feature Section
     
         }
 
+
+
+
+
+
+
         
     /* ==========================================================================
     CSS for Why Gotham by Lav 24-08-2018 Starts
     ========================================================================== */
-.gotham-feature-section h3{ font-size: 18px; font-weight: 800; margin: 0 0 18px;}
-.gotham-feature-section.feature-section { padding: 100px 0px 60px;}
-.gotham-feature-section p{ font-size: 15px; line-height: 22px; margin: 0 0 0;}
+.gotham-feature-section h3{ font-size: 19px;
+    font-weight: 700;}
+.gotham-feature-section.feature-section { padding: 50px 0px 50px;}
+.gotham-feature-section p{ font-size: 16px; font-weight: 500;}
 .gotham-info-box{ margin-bottom: 30px;}
 .gotham-info-box.even{ background:#f5f7fb; padding: 30px 0;}
-.gotham-info-content h3{ font-size: 18px; font-weight: 800; margin: 0 0 18px;}
-.gotham-info-content p{ font-size: 15px; line-height: 22px; margin: 0 0 18px;}
+.gotham-info-content h3{ font-size: 19px;
+    font-weight: 700;}
+.gotham-info-content p{ font-size: 16px; font-weight: 500; }
 .gotham-info-content p:last-child{ margin-bottom: 0;}
 .gotham-info-box .gotham-info-image-box img{ width: 100%;}
 
 @media screen and (max-width: 1024px) {
-	.gotham-feature-section h3{ font-size: 16px; margin: 0 0 15px;}
+	.gotham-feature-section h3{ font-size: 19px;
+        font-weight: 700; margin: 0 0 15px;}
 	.gotham-feature-section.feature-section { padding:60px 0px 30px;}
-	.gotham-feature-section p{ font-size: 14px; line-height:18px;}
-	.gotham-info-content h3{ font-size: 16px; margin: 0 0 15px;}
-	.gotham-info-content p{ font-size: 14px; line-height: 18px; margin: 0 0 15px;}
+	.gotham-feature-section p{ font-size: 16px; font-weight: 500;}
+	.gotham-info-content h3{ font-size: 19px;
+        font-weight: 700; margin: 0 0 15px;}
+	.gotham-info-content p{ font-size: 16px; font-weight: 500; }
 }
 @media screen and (max-width:767px) {
-	.gotham-feature-section h3{ font-size:15px;}
+	.gotham-feature-section h3{ font-size: 19px;
+        font-weight: 700;}
 	.gotham-feature-section.feature-section { padding:40px 0px 25px;}
-	.gotham-feature-section p{ font-size: 13px;}
+	.gotham-feature-section p{ font-size: 16px; font-weight: 500;}
 	.gotham-info-box{ margin-bottom: 25px;}
-	.gotham-info-content h3{ font-size: 15px;}
-	.gotham-info-content p{ font-size: 13px;}
+	.gotham-info-content h3{ font-size: 19px;
+        font-weight: 700;}
+	.gotham-info-content p{ font-size: 16px; font-weight: 500;}
 	.gotham-info-image-box{ margin-top: 25px; text-align: center;}
 	.gotham-info-box.even .gotham-info-image-box{ margin-bottom: 25px;}
 }
