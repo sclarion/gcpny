@@ -574,6 +574,56 @@ Hero Section
     color: white;
 }
 
+.energy-hero-section{     
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/energy-bg.jpg) center center no-repeat;
+    background-size: cover;    
+}
+
+.rapid-hero-section{
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/rapid-bg.jpg) center center no-repeat;
+    background-size: cover;   
+}
+
+.operation-hero-section{
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/operation-bg.jpg) center center no-repeat;
+    background-size: cover; 
+}
+
+.service-hero-section{
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/service-bg.jpg) center center no-repeat;
+    background-size: cover; 
+}
+
+.proactive-hero-section{
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/proactive-bg.jpg) center center no-repeat;
+    background-size: cover; 
+}
+
+.sales-hero-section{
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/sales-bg.jpg) center center no-repeat;
+    background-size: cover; 
+}
+
+.due-hero-section{
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/due-bg.jpg) center center no-repeat;
+    background-size: cover; 
+}
+
+.bake-hero-section{
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/bake-bg.jpg) center center no-repeat;
+    background-size: cover; 
+}
+
+.cap-landing-hero-section{
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/cap-landing-bg.jpg) center center no-repeat;
+    background-size: cover; 
+}
+
+.ind-landing-hero-section{
+    background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/ind-landing-bg.jpg) center center no-repeat;
+    background-size: cover; 
+}
+
 .pragmatic-hero-section {
     height: 400px;    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.3) 80% ),url(../img/pragmatic-bg.jpg) no-repeat center center;
@@ -600,7 +650,7 @@ Hero Section
 
 .careers-hero-section{
     height: 400px;    
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/about-us-bg.jpg) no-repeat center -150px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/career-bg.jpg) no-repeat center -150px;
     background-size: cover;
 }
 
@@ -621,7 +671,7 @@ Intro Section
     padding: 50px 0px 0px 0px;
 }
 
-.intro-section p, .mini-feature-section p{
+.intro-section p, .mini-feature-section p, .intro-section li{
     font-weight: 500;
 }
 
@@ -748,11 +798,14 @@ figure.tile> figcaption{
     font-size: 22px;    
 }
 
-.tile h5{
-    padding: 10px 10px;
+.tile h5, .gotham-info-box h5{
+    /* padding: 10px 10px; */
     font-size: 19px;
     font-weight: 700;
+    text-transform: uppercase;
 }
+
+
 
 .tile-text p{
     padding: 10px 20px 20px;
