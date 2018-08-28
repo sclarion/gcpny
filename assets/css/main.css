@@ -779,9 +779,15 @@ a:hover{
     background: rgba(245, 247, 251, 1);
 } */
 
+
+
 figure.tile{
     position: relative;
     margin: 0px 0px 20px 0px;
+}
+
+.industry-feature figure.tile{    
+    margin: 20px 7px 20px 7px;
 }
 
 .tile > .img::before {
@@ -1089,7 +1095,7 @@ Quick Contact Section
 }
 
 .quick-contact-section  h4{
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
 }
 
