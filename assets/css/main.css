@@ -77,6 +77,10 @@ ol ul{
     padding: 0px;    
 } */
 
+.same-height{
+    height: 250px;
+}
+
 
 .section-heading {
     /* border-bottom: 5px solid yellow; */
@@ -277,6 +281,18 @@ Navbar Styles
     padding: 10px 20px;
 }
 
+.nav-padding1 .dropdown-item{
+    padding: 10px 20px 10px 25px;
+}
+
+.nav-padding2 .dropdown-item{
+    padding: 10px 20px 10px 35px;
+}
+
+.nav-padding3 .dropdown-item{
+    padding: 10px 20px 10px 25px;
+}
+
 /* .dropdown-item:nth-child(even){
     background: rgba(127, 111, 172, 0.1);
 } */
@@ -376,7 +392,7 @@ Hero Section
     text-transform: uppercase;
     font-weight: 600;    
     font-family: 'Montserrat', sans-serif; 
-    font-size: 55px;
+    font-size: 40px;
     letter-spacing: 2px;
     /* -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5); */
@@ -388,6 +404,7 @@ Hero Section
 }
 
 .child .hero-content h2{
+    font-size: 55px;
     /* text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2); */
 }
 
@@ -425,7 +442,7 @@ Hero Section
 
 .child .hero-text{
     position: absolute;
-    padding-left: 20px;
+    padding-left: 15px;
     left: 0%;
     top: 50%;
     transform: translate(0%, -50%);
@@ -559,6 +576,16 @@ Hero Section
     transform: translate(-50%, -50%);
 }
 
+.child .hero-text a span{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+}
+
+.child .hero-text a:hover span{    
+    color: rgb(177, 177, 177);
+}
+
 /*------------------------------------------------------*/
 
 
@@ -675,7 +702,8 @@ Intro Section
     padding: 50px 0px 0px 0px;
 }
 
-.intro-section p, .mini-feature-section p, .intro-section li{
+.intro-section p, .mini-feature-section p, .intro-section li, .mini-feature-section li, 
+.mini-feature-section a{
     font-weight: 500;
 }
 
@@ -802,7 +830,7 @@ figure.tile> figcaption{
     font-size: 22px;    
 }
 
-.tile h5, .gotham-info-box h5{
+.tile h5, .gotham-info-box h5, .career-section h5{
     /* padding: 10px 10px; */
     font-size: 19px;
     font-weight: 700;
@@ -814,6 +842,11 @@ figure.tile> figcaption{
 .tile-text p{
     padding: 10px 20px 20px;
     font-size: 16px;
+}
+
+.tile-text a{
+    margin-top: 5px;
+    font-weight: 500;
 }
 
 .v-tile .tile-text{
@@ -831,6 +864,10 @@ figure.tile> figcaption{
 
 .mini-feature-section{
     padding: 50px 0px 10px 0px;
+}
+
+.list-section.mini-feature-section{
+    padding: 5px 0px 30px 10px;
 }
 
 .proactive .col-md-2 {
@@ -1275,6 +1312,11 @@ Feature Case Section
     text-align: left;
 }
 
+.feature-section.case-studies-section a.results-link:hover h5,
+.feature-section.case-studies-section a.results-link:hover p{
+    color: rgba(55, 46, 125, 1);
+}
+
 /* .child .case-studies-section p{
     color: rgba(200,200,200, 1);
 } */
@@ -1288,7 +1330,7 @@ Feature Case Section
 }
 
 .case-studies-list{
-    max-width: 900px;
+    max-width: 1000px;
     /* margin: 0 auto; */
 }
 
@@ -1309,27 +1351,17 @@ Feature Case Section
 }
 
 .case-studies-list a:hover{
-    text-decoration: none;
-    /* color: rgba(46, 171, 123, 1); */
-    color: rgba(55, 46, 125, 1);
-    /* transform: scale(1.1,1.1);   */
+    text-decoration: none;   
+    color: rgba(45, 24, 207, 1); 
 }
 
 .case-studies-list a i{
-    font-size: 18px;
-    /* color: grey; */
-    /* transition: 0.2s all ease-in-out; */
+    font-size: 18px;    
 }
 
-.case-studies-list a:hover .list-icon svg{
-    /* transform: scale(1.2,1.2); */
-    /* font-size: 20px; */
-    /* transform: translateX(5px); */
-    /* color: rgba(46, 171, 123, 1) !important; */
-    /* color: rgba(55, 46, 125, 1); */
-    fill: rgba(55, 46, 125, 1);
-     
-    /* border: 2px solid rgba(55, 46, 125, 1); */
+.case-studies-list a:hover .list-icon svg{    
+    fill: rgba(45, 24, 207, 1); 
+    /* fill: rgba(55, 46, 125, 1);     */
 }
 
 .list-icon{
