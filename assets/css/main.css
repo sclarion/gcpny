@@ -931,6 +931,16 @@ figure.tile> figcaption{
     font-weight: 700;
 }
 
+.list-section h5 a{
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.list-section h5 a:hover{
+    color: rgba(55, 46, 125, 1);
+}
+
 .list-ul>li{
     font-weight: 600;
     padding-bottom: 10px;
