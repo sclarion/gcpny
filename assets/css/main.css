@@ -1158,6 +1158,15 @@ Career Banner Section
     color: black;
 }
 
+
+a.cross-link{
+    color: black;
+}
+
+a.cross-link:hover{
+    color: rgba(55, 46, 125, 0.8);
+}
+
 /* ==========================================================================
 Quick Contact Section
 ========================================================================== */
@@ -1219,7 +1228,8 @@ Capabilities Section
     height: 35px;   
 }
 
-.cap-landing-section h3, .cap-landing-section h5{
+.cap-landing-section h3, .cap-landing-section h5, 
+.ind-landing-section h5, .ind-landing-section h3{
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -1233,6 +1243,8 @@ Capabilities Section
 .cap-landing-section a:hover{
     color: rgba(55, 46, 125, 1);
 }
+
+
 
 
 
