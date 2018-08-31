@@ -1548,6 +1548,7 @@ Feature Case Section
 
 .feature-section.case-studies-section h5:after,
 .ind-landing-section.ind-row h5:after
+/* .case-tile .v-tile .tile-text h5:after */
 {
     position: absolute;
     display: block;
@@ -1633,6 +1634,15 @@ Feature Case Section
     fill: rgba(45, 24, 207, 1); 
     /* fill: rgba(55, 46, 125, 1);     */
 }
+
+/* .case-tile .v-tile .tile-text h5 {
+    padding-right: 35px;
+}
+
+.case-tile .v-tile .tile-text h5:after{
+    top: 0px;
+    right: 25px;
+} */
 
 .list-icon{
     display: inline-block;
