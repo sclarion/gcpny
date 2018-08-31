@@ -87,7 +87,7 @@ ol ul{
 }
 
 .same-height{
-    height: 250px;
+    height: 200px;
 }
 
 .text-break{
@@ -763,7 +763,9 @@ Feature Section
     font-weight: 500;
 }
 
-
+.feature-section.cap-landing-section{
+    padding: 0px 0px 50px;
+}
 
 .feature-section{
     padding: 50px 0px;
@@ -946,7 +948,22 @@ figure.tile> figcaption{
     padding-bottom: 10px;
 }
 
-.list-ul li{
+.healthcare-section .list-ul>li{
+    font-weight: 500;    
+}
+
+.list-ul li li{
+    list-style: none;
+    position: relative;
+}
+
+.list-ul li li:before{
+    content: '-';
+    position: absolute;
+    left: -20px;
+}
+
+.list-ul>li{
     list-style: disc;
 }
 
@@ -1192,7 +1209,7 @@ Quick Contact Section
 }
 
 .quick-contact-section  h4{
-    font-size: 18px;
+    font-size: 17px;
     color: #fff;
 }
 
@@ -1230,19 +1247,52 @@ Capabilities Section
     color: rgba(46,52,57,1);
 }
 
-.more-icon i{
+.more-icon:after{    
+    position: absolute;
+    display: block;
+    content: url(arrow.svg);
+    top: -2px;
+    right: -30px;
+    height: 20px;
+    width: 20px;
+}
+    
+
+/* .more-icon i{
     position: absolute;
     font-size: 16px;
-    top: 2px;
+    top: 3px;
     right: -28px;
     height: 35px;   
-}
+} */
+
 
 .cap-landing-section h3, .cap-landing-section h5, 
 .ind-landing-section h5, .ind-landing-section h3{
     text-transform: uppercase;
     font-weight: 600;
 }
+
+.ind-landing-section.ind-row h5{
+    padding-right: 5px;
+}
+
+.cap-landing-section h5{
+    padding-right: 45px;
+}
+
+.cap-landing-section h5:after
+{
+    position: absolute;
+    display: block;
+    content: url(arrow.svg);
+    top: 0px;
+    right: 30px;
+    height: 20px;
+    width: 20px;
+}
+
+
 
 .cap-landing-section h3{
     font-size: 24px;
@@ -1345,6 +1395,47 @@ Landing Page/ Listing Page
 
 .cap-ind .icon-box{
     margin: 10px 40px 30px;    
+}
+
+/*six in a row*/
+.cap-ind.six-row .icon-box{
+    margin: 10px 16px 30px;    
+}
+
+.cap-ind.six-row .icon-box .icon svg{
+    height: 80px;  
+    width: 80px;
+    fill: rgba(33,67,113,1);    
+}
+
+.cap-ind.six-row .icon{
+    width: 80px;
+    height: 80px;
+}
+
+.cap-ind.six-row .icon-text p{
+    width: 120px;
+}
+
+
+/*five in a row*/
+.cap-ind.five-row .icon-box{
+    margin: 10px 30px 30px;    
+}
+
+.cap-ind.five-row .icon-box .icon svg{
+    height: 100px;  
+    width: 100px;
+    fill: rgba(33,67,113,1);    
+}
+
+.cap-ind.five-row .icon{
+    width: 100px;
+    height: 100px;
+}
+
+.cap-ind.five-row .icon-text p{
+    width: 120px;
 }
 
 
@@ -1451,7 +1542,31 @@ Feature Case Section
     color: rgba(100,100,100, 1);
     font-weight: 600;
     font-size: 16px;
+    padding-right: 20px;
+    position: relative;
 }
+
+.feature-section.case-studies-section h5:after,
+.ind-landing-section.ind-row h5:after
+{
+    position: absolute;
+    display: block;
+    content: url(arrow.svg);
+    top: 5px;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+}
+
+.service-op-section ul li{
+    text-align: left!important;
+}
+
+.ind-landing-section.ind-row h5:after{
+    right: 25px;
+    top: 0px;
+}
+
 
 .feature-section.case-studies-section p{
     color: rgba(100,100,100, 1);
@@ -1466,6 +1581,10 @@ Feature Case Section
 .feature-section.case-studies-section a.results-link:hover h5,
 .feature-section.case-studies-section a.results-link:hover p{
     color: rgba(55, 46, 125, 1);
+}
+
+.feature-section.case-studies-section a.results-link:hover svg{
+    color: pink;
 }
 
 /* .child .case-studies-section p{
@@ -1527,6 +1646,14 @@ Feature Case Section
     padding: 10px;
     border-radius: 50%;
     color: rgb(37, 37, 37);
+}
+
+.click-block{
+    color: black;
+}
+
+.click-block:hover{
+    color: rgba(55, 46, 125, 1);
 }
 
 .template-2{
@@ -1592,6 +1719,12 @@ Feature Case Section
 
 .mini-feature-section.ind-row{
     padding:30px 0px 10px 0px;
+}
+
+@media screen and (max-width: 992px){
+    .mini-feature-section.ind-row{
+        padding: 0px 0px 0px 0px;
+    }    
 }
 
 /*-------------------------------------------------------------------------
@@ -1703,10 +1836,10 @@ Testimonial Section
 ========================================================================== */
 
 footer {
-    /* border-top: 1px solid rgba(55, 46, 125, 1); */
+    border-top: 1px solid rgba(55, 46, 125, 1);
     width: 100%;
     background: white;
-    padding: 50px 0px 0px;
+    padding: 20px 0px 0px;
     color: rgba(39,31,99,1);
     font-size: 14px;
 }
