@@ -1285,6 +1285,20 @@ Capabilities Section
     height: 20px;
     width: 20px;
 }
+
+.healthcare-section h5, .energy-section h5{
+    width: auto;
+}
+
+.healthcare-section .more-icon:afte{
+    top: 0px;
+    left: 200px;
+}
+
+.energy-section .more-icon:after{
+    top: 0px;
+    left: 120px;
+}
     
 
 /* .more-icon i{
@@ -1712,6 +1726,16 @@ Feature Case Section
 .template-2 .list-icon svg{
     height: 90px;
     width: 90px;
+}
+
+.energy-section .list-icon{
+    height: 70px;
+    width: 70px;
+}
+
+.energy-section .list-icon svg{
+    height: 70px;
+    width: 70px;
 }
 
 .template-3 .list-icon{
