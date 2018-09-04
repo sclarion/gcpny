@@ -427,8 +427,7 @@ Hero Section
     /* text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2); */
 }
 
-.child .hero-section .hero-content h2{
-    font-size: 60px;
+.child .hero-section .hero-content h2{    
     margin-left: -4px;
 }
 
@@ -593,12 +592,42 @@ Hero Section
 }
 
 .child .hero-text{
-    min-width: 1140px;
+    width: 100%;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.child .hero-section .hero-content h2{
+    font-size: 40px;
+}
+
+    /* @media screen and (max-width: 991px){
+        .child .hero-text{
+            min-width: auto;
+            max-width: 720px;        
+        }   
+    }
+
+    @media screen and (max-width: 1200px){
+        .child .hero-text{
+            min-width: auto;
+            max-width: 960px;        
+        }   
+    } */
+
+/* @media screen and (max-width: 768px){
+    .child .hero-text{
+        min-width: auto;
+        max-width: 90%;        
+    }
+
+    .child .hero-section .hero-content h2{
+        font-size: 40px;
+    }
+
+} */
 
 .child .hero-text a span{
     font-size: 1.25rem;
@@ -1310,8 +1339,8 @@ Capabilities Section
 
 
 .quick-contact-section.apply-section{
-    /* background: rgba(250, 250, 250, 1); */
-    background: rgba(90, 162, 174, 1);
+    background: rgba(18, 20, 41, 1);
+    /* background: rgba(90, 162, 174, 1); */
     padding: 30px 0px 30px;
 }
 
@@ -1321,7 +1350,8 @@ Capabilities Section
 }
 
 .quick-contact-section.apply-section .btn{
-    background: rgba(43,82,88,1);
+    background: rgba(36,40,82,1);
+    /* background: rgba(43,82,88,1); */
     border: 1px solid grey;
 }
 
@@ -2014,6 +2044,9 @@ h1.logo a {
 Author's custom styles
 ========================================================================== */
 
+.child .hero-text{
+    max-width: 540px;        
+}
 
 
 
@@ -2055,7 +2088,9 @@ Hero Section Section
  /* ==========================================================================
 About Us Section
 ========================================================================== */
-
+.child .hero-text{
+    max-width: 720px;        
+}
 
 
 
@@ -2133,6 +2168,14 @@ Services Umbrella Section
     /* max-width: 400px; */
 }
 
+.child .hero-text{
+    max-width: 960px;        
+}
+
+.child .hero-section .hero-content h2{  
+    font-size: 60px;  
+    margin-left: -4px;
+}
 
  /* ==========================================================================
  Author's custom styles
@@ -2188,7 +2231,8 @@ Author's custom styles
     /* ==========================================================================
     Author's custom styles
     ========================================================================== */
-   
+    
+    
 
 
 /* ==========================================================================
@@ -2224,6 +2268,20 @@ Industry Feature Section
    
     }
 
+
+
+
+
+    @media screen and (min-width: 1200px){
+        .child .hero-text{
+            max-width: 1140px;        
+        }
+    
+        .child .hero-section .hero-content h2{
+            font-size: 60px;
+            margin-left: -4px;
+        }
+    }
 
 
 
