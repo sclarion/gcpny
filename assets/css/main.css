@@ -473,10 +473,9 @@ Hero Section
 
 .hero-text{
     position: absolute;
-    left: 5%;
-    top: 30%;
-    width: 600px;
-    transform: translate(0%, -30%);
+    /* left: 5%; */
+    top: 150px;    
+    /* transform: translate(0%, -30%); */
 }
 
 .child .hero-content .hyphen{
@@ -734,13 +733,13 @@ Hero Section
 
 .careers-hero-section{
     height: 400px;    
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/career-bg.jpg) no-repeat center -150px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/career-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .contact-us-hero-section{
     height: 50vh;    
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/about-us-bg.jpg) no-repeat center -150px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.1) 80% ),url(../img/about-us-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -2114,6 +2113,17 @@ About Us Section
 ========================================================================== */
 .child .hero-text{
     max-width: 720px;        
+}
+
+.hero-text {
+    width: 600px;
+}
+
+.hero-text{
+    position: absolute;
+    left: 5%;
+    top: 30%;    
+    transform: translate(0%, -30%);
 }
 
 
