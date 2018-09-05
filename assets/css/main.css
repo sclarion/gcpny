@@ -1213,6 +1213,9 @@ Career Banner Section
     color: black;
 }
 
+.apply-links li a:hover{
+    color: rgba(55, 46, 125, 1);
+}
 
 a.cross-link{
     color: black;
@@ -1776,8 +1779,8 @@ Feature Case Section
     font-weight: 700;
 }
 
-.career-return{
-
+.career-return .bottom-links{
+    padding: 10px 30px;
 }
 
 .mini-feature-section.ind-row{
