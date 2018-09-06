@@ -303,6 +303,7 @@ Navbar Styles
 span.dropdown-item-noclick{
     display: block;
     padding: 10px 20px 10px 35px;
+    color: rgba(39,31,99,1);
 }
 
 .nav-padding1 .dropdown-item{
@@ -1305,6 +1306,16 @@ Capabilities Section
 .healthcare-section .more-icon:after{
     top: 0px;
     left: 200px;
+}
+
+.healthcare-section .list-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.healthcare-section .list-icon svg {
+    height: 70px;
+    width: 70px;
 }
 
 .energy-section .more-icon:after{
