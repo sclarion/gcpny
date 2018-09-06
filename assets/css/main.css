@@ -300,6 +300,11 @@ Navbar Styles
     padding: 10px 20px;
 }
 
+span.dropdown-item-noclick{
+    display: block;
+    padding: 10px 20px 10px 35px;
+}
+
 .nav-padding1 .dropdown-item{
     padding: 10px 20px 10px 25px;
 }
@@ -1239,9 +1244,14 @@ Quick Contact Section
     margin: 0px;
 }
 
-.quick-contact-section  h4{
+.quick-contact-section h4{
     font-size: 17px;
     color: #fff;
+}
+
+.quick-contact-text{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
 }
 
 .quick-contact-section .btn{
@@ -1790,7 +1800,8 @@ Feature Case Section
 @media screen and (max-width: 992px){
     .mini-feature-section.ind-row{
         padding: 0px 0px 0px 0px;
-    }    
+    }
+    
 }
 
 /*-------------------------------------------------------------------------
@@ -2132,7 +2143,9 @@ About Us Section
 
 
 
-
+.quick-contact-text{
+    text-align: left;
+}
 
 
 
@@ -2217,6 +2230,10 @@ Services Umbrella Section
  /* ==========================================================================
  Author's custom styles
  ========================================================================== */
+
+    .quick-contact-text{
+        margin: 0px 20px 0px 0px;
+    }
 
 
    /* ==========================================================================
