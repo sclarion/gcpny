@@ -2487,3 +2487,56 @@ Industry Feature Section
 /* ==========================================================================
     CSS for Why Gotham by Lav 24-08-2018 Ends
     ========================================================================== */
+
+
+
+
+
+
+/* ==========================================================================
+    Mobile menu styles
+    ========================================================================== */
+    /* .nav-padding1 span, .nav-padding2 span, .nav-padding3 span {
+        display: block;
+    } */
+    .mobno-block{
+        display: block;
+    }
+
+
+    @media screen and (max-width: 991px){
+        .navbar-collapse{
+            height: 90vh;
+            overflow-x: scroll;
+        }
+
+        .navbar-nav .nav-item{
+            padding: 0px;
+        }
+
+        .navbar-nav .nav-item .dropdown-menu{
+            display: block;
+            padding-bottom: 30px;
+            transform: translateY(00px);
+            -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+            -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+            box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+        }
+
+        .nav-padding {
+            width: 100% !important;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .capa-links{
+            width: 100% !important;
+        }
+
+        .mobno-block{
+            display: inline-block;
+        }
+
+
+
+    }
