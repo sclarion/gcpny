@@ -2529,6 +2529,10 @@ Industry Feature Section
             max-width: 100%;
         }
 
+        .nav-padding a.dropdown-item{
+            white-space: normal;
+        }
+
         .capa-links{
             width: 100% !important;
         }
