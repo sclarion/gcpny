@@ -2544,3 +2544,15 @@ Industry Feature Section
 
 
     }
+
+
+
+
+    #toolbar-administration{
+        position: relative;
+        index: 2000;
+    }
+
+    #toolbar-administration + .dialog-off-canvas-main-canvas .main-nav{
+        top: 80px;
+    }
