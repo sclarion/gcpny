@@ -2548,11 +2548,50 @@ Industry Feature Section
 
 
 
-    #toolbar-administration{
-        position: relative;
-        index: 2000;
-    }
+/* ==========================================================================
+    Drupal fixes    
+    ========================================================================== */
 
-    #toolbar-administration + .dialog-off-canvas-main-canvas .main-nav{
-        top: 80px;
-    }
+/*Admin panel fix*/
+#toolbar-administration{
+    position: relative;
+    index: 2000;
+}
+
+#toolbar-administration + .dialog-off-canvas-main-canvas .main-nav{
+    top: 80px;
+}
+
+
+/*load more fix*/
+
+.load-more-section ul {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.load-more-section ul li {
+    list-style: none;
+    padding: 0px;    
+}
+
+.load-more-section a{
+    color: black;
+}
+
+.load-more-section ul {
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+
+/*case study images*/
+
+/* .v-tile .img-box .img{
+    background: pink;
+    display: block;
+    height: 280px;
+    width: 100%;
+} */
+    
+
