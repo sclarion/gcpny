@@ -2667,6 +2667,11 @@ div[role=contentinfo]{
     color: rgba(55, 46, 125, 1);
 }
 
+#edit-submit:focus, #edit-submit:active{
+    background: rgba(36,40,82,1);
+    color: white;
+}
+
 .field--type-email{
     width: 75%;
     margin-left: 5%;
