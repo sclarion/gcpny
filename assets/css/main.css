@@ -2604,7 +2604,7 @@ Industry Feature Section
     ========================================================================== 
 */
 
-
+/* 
 .quick-contact-section .form-control input {
     display: inline;    
     padding: .375rem .75rem;
@@ -2638,7 +2638,8 @@ div[role=contentinfo]{
 
 #contact_ajax_contact_message_newsletters_form input.form-email.required.error {
     border: 2px solid red;
-}
+} 
+*/
 
 
 
@@ -2668,6 +2669,7 @@ div[role=contentinfo]{
 
 .field--type-email{
     width: 75%;
+    margin-left: 5%;
     text-align: right;
     float: left;
     padding: 0px;
@@ -2686,4 +2688,33 @@ label.js-form-required{
 input.form-email{
     width: 200px;
     margin: 0 10px;
+}
+
+@media screen and (max-width:1200px) and (min-width: 992px){
+    .field--type-email{
+        width: 86%;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .field--type-email{
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    label.js-form-required{
+        margin-right: 0px;
+    }
+
+    .form-actions{
+        width: 100%;
+    }
+
+    input.form-email{
+        width: 250px;
+        margin: 0 10px;
+    }
 }
