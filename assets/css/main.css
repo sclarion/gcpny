@@ -2594,4 +2594,96 @@ Industry Feature Section
     width: 100%;
 } */
     
+/*Quick Contact Section*/
 
+
+
+
+/* ==========================================================================
+    Quick Contact Section  
+    ========================================================================== 
+*/
+
+
+.quick-contact-section .form-control input {
+    display: inline;    
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid #ced4da;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.quick-contact-section .form-control{
+  background-color:transparent;
+}
+
+label.js-form-required.form-required {
+    color: white;
+    font-weight: 600;
+}
+
+#contact_ajax_contact_message_newsletters_form div[role=alert] {
+    display: none;
+}
+
+div[role=contentinfo]{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#contact_ajax_contact_message_newsletters_form input.form-email.required.error {
+    border: 2px solid red;
+}
+
+
+
+/*-------------------------------------*/
+
+#contact-message-newsletters-form{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+#edit-submit{
+    background: rgba(36,40,82,1);
+    border: 1px solid grey; 
+    border-radius: 0px;
+    padding: 0.375rem 1.25rem;
+    color: white;    
+}
+
+#edit-submit:hover{
+    background: #fff;
+    color: rgba(55, 46, 125, 1);
+}
+
+.field--type-email{
+    width: 75%;
+    text-align: right;
+    float: left;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-actions{
+    width: 10%;
+    float: left;
+}
+
+label.js-form-required{
+    margin-right: 20px;
+}
+
+input.form-email{
+    width: 200px;
+    margin: 0 10px;
+}
