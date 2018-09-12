@@ -2555,7 +2555,7 @@ Industry Feature Section
 /*Admin panel fix*/
 #toolbar-administration{
     position: relative;
-    index: 2000;
+    z-index: 2000;
 }
 
 #toolbar-administration + .dialog-off-canvas-main-canvas .main-nav{
