@@ -2562,6 +2562,10 @@ Industry Feature Section
     top: 80px;
 }
 
+form#user-login-form {
+    margin: 100px 50px;
+}
+
 
 /*load more fix*/
 
