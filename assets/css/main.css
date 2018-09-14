@@ -896,6 +896,14 @@ figure.tile> figcaption{
     color: #fff;
 }
 
+figcaption a{
+    color: white;
+}
+
+.fig-text:hover a, .fig-text a:hover{
+    color: rgba(55, 46, 125, 1);
+}
+
 .tile{
     /* border: 1px solid rgb(185, 185, 185); */
     margin-bottom: 30px;
