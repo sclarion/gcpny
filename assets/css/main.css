@@ -1686,6 +1686,8 @@ Feature Case Section
     text-align: left;
     height: 80px;
     transition: 0.2s all ease-in-out;
+    display: flex;
+    align-items: center;
 }
 
 .case-studies-list a:hover{
