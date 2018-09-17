@@ -659,7 +659,7 @@ Hero Section
 .child-hero-section{
     height: 400px;  
     background: linear-gradient( 45deg, rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0.3) 100% ),url(../img/food1.jpg) center center no-repeat;
-    background-size: cover;
+    background-size: cover !important;
     color: white;
 }
 
