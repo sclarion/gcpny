@@ -1748,6 +1748,27 @@ Feature Case Section
     color: black;
 }
 
+a.two-link-block {
+    position: absolute;    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+a.two-link-block:hover + .row{
+    color: rgba(55, 46, 125, 1)!important;
+}
+
+a.two-link-block:hover + .row .more-icon{
+    color: rgba(55, 46, 125, 1)!important;
+}
+
+a.two-link-block:hover + .row .list-icon svg{
+    fill: rgba(55, 46, 125, 1)!important;
+}
+
 .click-block:hover{
     color: rgba(55, 46, 125, 1);
 }
