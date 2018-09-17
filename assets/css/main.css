@@ -910,7 +910,7 @@ figcaption a{
     /* background: white;     */
 }
 
-.tile>a{
+figure.tile>a{
     position: absolute;
     left: 0px;
     top: 0px;
