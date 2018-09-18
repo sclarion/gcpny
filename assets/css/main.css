@@ -910,7 +910,7 @@ figcaption a{
     /* background: white;     */
 }
 
-figure.tile>a{
+.child figure.tile>a{
     position: absolute;
     left: 0px;
     top: 0px;
@@ -1757,7 +1757,7 @@ a.two-link-block {
     z-index: 1;
 }
 
-a.two-link-block:hover + .row{
+a.two-link-block:hover + .row, a.two-link-block:hover + .list-icon-wrap h5{
     color: rgba(55, 46, 125, 1)!important;
 }
 
@@ -1765,7 +1765,7 @@ a.two-link-block:hover + .row .more-icon{
     color: rgba(55, 46, 125, 1)!important;
 }
 
-a.two-link-block:hover + .row .list-icon svg{
+a.two-link-block:hover + .row .list-icon svg, a.two-link-block:hover + .list-icon-wrap .list-icon svg{
     fill: rgba(55, 46, 125, 1)!important;
 }
 
