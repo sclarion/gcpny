@@ -2793,8 +2793,8 @@ input.form-email{
     }
 
     .quick-contact-section .form-control input{
-        padding: .375rem .75rem;
-        font-size: 0.9rem;
+        padding: .5rem .75rem;
+        font-size: 0.9rem;  
     }
 
     input.form-email {
