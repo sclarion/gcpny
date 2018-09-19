@@ -511,7 +511,7 @@ Hero Section
 }
 
 .hero-text a.ml-1{
-    margin: 0px;
+    margin: 0px!important;
 }
 
 .child .hero-content .hyphen{
