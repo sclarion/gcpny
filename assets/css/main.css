@@ -510,6 +510,10 @@ Hero Section
     /* transform: translate(0%, -30%); */
 }
 
+.hero-text a.ml-1{
+    margin: 0px;
+}
+
 .child .hero-content .hyphen{
     font-size: 12px;
     line-height: 2.8;
