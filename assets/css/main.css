@@ -876,6 +876,16 @@ figure.tile{
     margin: 0px 0px 20px 0px;
 }
 
+.industry-feature figure.industry-expertise.tile{    
+    margin: 20px 0px 20px 0px;
+}
+
+/* @media screen and (max-width: 800px){
+    .industry-feature figure.industry-expertise.tile{    
+        margin: 20px 0px 20px 0px;
+    }
+} */
+
 .industry-feature figure.tile{    
     margin: 20px 7px 20px 7px;
 }
@@ -928,6 +938,17 @@ figure.tile> figcaption{
 
 figcaption a{
     color: white;
+}
+
+@media screen (min-width: 692px) and (max-width: 892px){
+    figure.tile figcaption a.results-link, .case-tile figure.tile> figcaption {
+        font-size: 13px;
+        line-height: 0.5;
+    }
+
+
+
+
 }
 
 .fig-text:hover a, .fig-text a:hover{
@@ -1426,6 +1447,17 @@ Capabilities Section
     background: rgba(18, 20, 41, 1);
     /* background: rgba(90, 162, 174, 1); */
     padding: 30px 0px 30px;
+}
+
+@media screen and (max-width: 892px){
+    .quick-contact-section.apply-section .row .col-lg-7 {
+        justify-content: center !important;
+    }
+
+    .form-group.col-md-4.text-center {
+        text-align: center !important;
+        padding-top: 20px;
+    }
 }
 
 .quick-contact-section.apply-section  h4{
