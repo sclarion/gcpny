@@ -1802,6 +1802,11 @@ Feature Case Section
     color: rgb(37, 37, 37);
 }
 
+.list-icon svg{
+    height: 40px;
+    width: 40px;
+}
+
 .click-block{
     color: black;
 }
@@ -2694,8 +2699,13 @@ form#user-login-form {
     color: black;
 }
 
+.load-more-section h6{
+    margin: 0px;
+    padding-bottom: 0.5rem;
+}
+
 .load-more-section ul {
-    padding: 0px 0px 30px 0px;
+    padding: 30px 0px 30px 0px;
     text-align: center;
 }
 
