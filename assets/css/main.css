@@ -815,7 +815,9 @@ Intro Section
     text-decoration: none;
 }
 
-
+.intro-section li{
+    text-align: left;
+}
 
 
 
@@ -1056,9 +1058,12 @@ figcaption a{
 }
 
 .list-ul li li:before{
-    content: '-';
+    font-family: "FontAwesome";
+    content: '\f068';
     position: absolute;
+    font-size: 0.8rem;
     left: -20px;
+    top: 3px;
 }
 
 .list-ul>li{
@@ -2229,7 +2234,29 @@ Author's custom styles
 
 }
 
+/* .case-title .tile-text p strong{
+    font-weight: 500;
+} */
 
+section.feature-section.return-parent{
+    background: rgba(203,208,255,1);
+    padding: 30px 0px;
+}
+
+
+@media screen and (max-width: 992px){
+    .result-ul-block p{
+        padding-left: 40px;
+    }
+
+    .result-ul-block{
+        margin-bottom: 10px;
+    }
+
+    .result-ul-block ul{
+        margin-bottom: 0.5rem;
+    }
+}
 
 
 
@@ -2267,12 +2294,10 @@ About Us Section
     transform: translate(0%, -30%);
 }
 
-
-
-
 .quick-contact-text{
     text-align: left;
 }
+
 
 
 
