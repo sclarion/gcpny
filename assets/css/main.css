@@ -2904,6 +2904,7 @@ form.contact-message-contact-form input#edit-field-phone-number-0-value{
 
 form.contact-message-contact-form .field--type-email{
     width: 100%;
+    margin: 0px;
 }
 
 
@@ -2911,7 +2912,7 @@ form.contact-message-contact-form .field--type-email{
 /*24sept end*/
 
 @media screen and (max-width:1200px) and (min-width: 992px){
-    /* .field--type-email{
+    .field--type-email{
         width: 86%;
         margin-left: 0px;
     }
@@ -2931,12 +2932,12 @@ form.contact-message-contact-form .field--type-email{
 
     input.form-email {
         width: 169px;
-    } */
+    }
 
 }
 
 @media screen and (max-width: 992px) {
-    /* .field--type-email{
+    .field--type-email{
         width: 100%;
         margin-left: 0px;
         margin-bottom: 10px;
@@ -2954,5 +2955,5 @@ form.contact-message-contact-form .field--type-email{
     input.form-email{
         width: 250px;
         margin: 0 10px;
-    } */
+    }
 }
