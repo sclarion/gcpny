@@ -429,7 +429,7 @@ Hero Section
 .hero-section{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 80% ),url(../img/home-bg.jpg) no-repeat center center;
     background-size: cover; 
-    height: 99vh;    
+    height: 96vh;    
     color: white;    
 }
 
@@ -613,6 +613,29 @@ Hero Section
     top: 1px;
     opacity: 1;
 } */
+
+.scroll-down{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:100%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.scroll-down i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
 
 .hero-content .breadcrumbs li:not(:last-child)::after{
     position: absolute;
@@ -2159,6 +2182,18 @@ footer .logo a {
     background-size: contain;
 }
 
+@media screen and (max-width: 578px){
+    footer .logo a{
+        margin: 0px 8px 0px;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    footer .logo a{
+        background: url(../img/logo-dark.png) no-repeat;
+    }
+}
+
 .footer-about-us p{
     color: rgba(39,31,99,1);
     /* margin-top: 3px; */
@@ -2845,8 +2880,38 @@ input.form-email{
     margin: 0 10px;
 }
 
+
+/*24sept*/
+
+form.contact-message-contact-form label {
+    color: black !important;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    text-align: left;
+}
+
+form.contact-message-contact-form input.js-text-full, 
+form.contact-message-contact-form textarea.js-text-full {
+    width: 100%;
+}
+
+form.contact-message-contact-form input#edit-field-email-0-value, 
+form.contact-message-contact-form input#edit-field-phone-number-0-value{
+    width: 100%;
+    margin: 0px;
+}
+
+form.contact-message-contact-form .field--type-email{
+    width: 100%;
+}
+
+
+
+/*24sept end*/
+
 @media screen and (max-width:1200px) and (min-width: 992px){
-    .field--type-email{
+    /* .field--type-email{
         width: 86%;
         margin-left: 0px;
     }
@@ -2866,12 +2931,12 @@ input.form-email{
 
     input.form-email {
         width: 169px;
-    }
+    } */
 
 }
 
 @media screen and (max-width: 992px) {
-    .field--type-email{
+    /* .field--type-email{
         width: 100%;
         margin-left: 0px;
         margin-bottom: 10px;
@@ -2889,5 +2954,5 @@ input.form-email{
     input.form-email{
         width: 250px;
         margin: 0 10px;
-    }
+    } */
 }
