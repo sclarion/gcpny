@@ -1929,7 +1929,7 @@ a.two-link-block:hover + .row .list-icon svg, a.two-link-block:hover + .list-ico
 
 .return-button a{
     color: black;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .career-return .bottom-links{
@@ -2275,8 +2275,16 @@ Author's custom styles
 } */
 
 section.feature-section.return-parent{
-    background: rgba(203,208,255,1);
+    background: rgba(38,38,38,1);
     padding: 30px 0px;
+}
+
+section.feature-section.return-parent svg {
+    fill: rgba(255,255,255,1);
+}
+
+section.feature-section.return-parent .return-button a{
+    color: white;
 }
 
 
