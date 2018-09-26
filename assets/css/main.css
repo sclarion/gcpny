@@ -2331,6 +2331,16 @@ About Us Section
     width: 600px;
 }
 
+@media screen and (min-width:1400px){
+    .hero-text{
+        width: 900px;
+    }
+
+    .hero-content h2{
+        font-size: 50px;
+    }
+}
+
 .hero-text{
     position: absolute;
     left: 5%;
@@ -2868,7 +2878,7 @@ div[role=contentinfo]{
 
 .field--type-email{
     width: 77%;
-    margin-left: 5%;
+    margin-left: 6.5%;
     text-align: right;
     float: left;
     padding: 0px;
@@ -2923,7 +2933,7 @@ form.contact-message-contact-form .field--type-email{
 @media screen and (max-width:1200px) and (min-width: 992px){
     .field--type-email{
         width: 86%;
-        margin-left: 0px;
+        margin-left: 2%;
     }
 
     label.js-form-required{
