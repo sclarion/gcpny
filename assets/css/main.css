@@ -965,6 +965,10 @@ figcaption a{
     color: white;
 }
 
+figure.tile.five-ind figcaption {
+    font-size: 16px;
+}
+
 @media screen (min-width: 692px) and (max-width: 892px){
     figure.tile figcaption a.results-link, .case-tile figure.tile> figcaption {
         font-size: 13px;
