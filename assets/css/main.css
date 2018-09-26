@@ -1086,11 +1086,15 @@ figure.tile.five-ind figcaption {
 
 .list-ul li li:before{
     font-family: "FontAwesome";
-    content: '\f068';
+    content: '';
+    /* content: '\f068'; */
+    /* font-size: 0.8rem; */
     position: absolute;
-    font-size: 0.8rem;
-    left: -20px;
-    top: 3px;
+    font-size: 1.4rem;
+    left: -18px;
+    top: 10px;
+    width: 10px;
+    border-bottom: 2px solid rgba(55, 46, 125, 1);
 }
 
 .list-ul>li{
