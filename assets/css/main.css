@@ -2385,6 +2385,16 @@ About Us Section
 
 @media screen and (min-width:1400px){
     .hero-text{
+        width: 700px;
+    }
+
+    .hero-content h2{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width:1800px){
+    .hero-text{
         width: 900px;
     }
 
