@@ -310,6 +310,15 @@ span.dropdown-item-noclick{
     padding: 10px 25px 10px 25px;
 }
 
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #f2f2f2;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: rgba(39,31,99,1);
+    color: white !important;
+}
+
 .nav-padding2 .dropdown-item{
     padding: 10px 20px 10px 35px;
 }
@@ -2244,6 +2253,7 @@ footer .logo a {
 @media screen and (min-width: 2000px){
     footer .logo a{
         background: url(../img/logo-dark.png) no-repeat;
+        background-size: contain;
     }
 }
 
@@ -2940,7 +2950,7 @@ div[role=contentinfo]{
 
 .field--type-email{
     width: 77%;
-    margin-left: 6.5%;
+    margin-left: 5.9%;
     text-align: right;
     float: left;
     padding: 0px;
@@ -2953,7 +2963,7 @@ div[role=contentinfo]{
 }
 
 label.js-form-required{
-    margin-right: 20px;
+    margin-right: 3px;
 }
 
 input.form-email{
