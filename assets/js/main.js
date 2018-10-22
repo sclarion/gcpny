@@ -117,7 +117,16 @@ $('.scrollToTop').click(function(){
 });
 
 
+// var height_one = $('.alt-color:nth-child(1)').outerHeight();
+var height_one = $('.mini-feature-section:nth-child(1)');
 
+console.log(height_one);
+
+
+
+$(".load-more-section .pager__item a").on("click", function(){
+    alert("The paragraph was clicked.");
+});
  
   
   

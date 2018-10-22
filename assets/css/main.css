@@ -1836,6 +1836,15 @@ Feature Case Section
     color: pink;
 }
 
+a.results-img-link{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+}   
+
 /* .child .case-studies-section p{
     color: rgba(200,200,200, 1);
 } */
